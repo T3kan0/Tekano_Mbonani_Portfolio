@@ -23,7 +23,7 @@ st.set_page_config(
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
 # URL of your CSS file on GitHub
-url = "https://raw.githubusercontent.com/T3kan0/Tekano_Mbonani_Portfolio/main/config.css"
+url = "https://raw.githubusercontent.com/T3kan0/Tekano_Mbonani_Portfolio/main/config0.css"
 
 # Fetch the content
 response = requests.get(url)
