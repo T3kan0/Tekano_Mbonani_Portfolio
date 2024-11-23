@@ -15,7 +15,7 @@ import streamlit as st
 
 
 st.set_page_config(
-    page_title="A_STEP_Dashboard",
+    page_title="Projects",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
