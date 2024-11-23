@@ -22,7 +22,7 @@ st.set_page_config(
     )
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
-with open('config.css') as f:
+with open('https://github.com/T3kan0/Tekano_Mbonani_Portfolio/blob/main/Portfolio/config.css') as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 
 
