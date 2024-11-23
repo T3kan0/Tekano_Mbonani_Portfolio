@@ -7,4 +7,4 @@ PILLOW
 datetime
 requests
 pypdf
-re
+regex
