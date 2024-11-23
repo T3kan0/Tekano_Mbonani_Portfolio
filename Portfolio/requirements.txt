@@ -1,0 +1,9 @@
+scipy
+sklearn
+sklearn
+fpdf
+numpy
+pandas
+io
+PIL
+datetime
