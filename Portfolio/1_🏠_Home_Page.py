@@ -11,7 +11,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 from datetime import date
 from PIL import Image
-
+import requests
 
 
 st.set_page_config(
