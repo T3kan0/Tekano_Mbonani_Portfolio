@@ -6,5 +6,5 @@ pandas
 PILLOW
 datetime
 requests
-pypdf
+pypdf2
 regex
