@@ -3,5 +3,5 @@ scikit-learn
 fpdf
 numpy
 pandas
-PIL
+Pillow
 datetime
