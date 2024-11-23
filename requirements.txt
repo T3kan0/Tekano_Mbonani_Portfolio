@@ -1,0 +1,7 @@
+pyreadr
+PIL
+pandas
+numpy
+fpdf
+sklearn
+scipy
