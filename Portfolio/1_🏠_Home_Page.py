@@ -27,10 +27,10 @@ url = "https://raw.githubusercontent.com/T3kan0/Tekano_Mbonani_Portfolio/main/co
 
 # Fetch the content
 response = requests.get(url)
-if response.status_code == 200:
-    css_content = response.text
-    st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
-else:
+#if response.status_code == 200:
+    #css_content = response.text
+    #st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
+#else:
     #st.error("Failed to fetch CSS. Check the URL or connection.")
 
 
