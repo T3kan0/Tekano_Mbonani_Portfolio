@@ -15,7 +15,7 @@ import requests
 
 
 st.set_page_config(
-    page_title="A_STEP_Dashboard",
+    page_title="TekanoMbonani",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -31,7 +31,7 @@ if response.status_code == 200:
     css_content = response.text
     st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
 else:
-    st.error("Failed to fetch CSS. Check the URL or connection.")
+    #st.error("Failed to fetch CSS. Check the URL or connection.")
 
 
 
