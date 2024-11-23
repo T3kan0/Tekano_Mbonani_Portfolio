@@ -1,6 +1,5 @@
 scipy
-sklearn
-sklearn
+scikit-learn
 fpdf
 numpy
 pandas
