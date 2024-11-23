@@ -3,6 +3,5 @@ scikit-learn
 fpdf
 numpy
 pandas
-io
 PIL
 datetime
