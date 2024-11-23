@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-import pyreadr
 import scipy.stats as stats
 from scipy.stats import f_oneway
 from sklearn.linear_model import LinearRegression
