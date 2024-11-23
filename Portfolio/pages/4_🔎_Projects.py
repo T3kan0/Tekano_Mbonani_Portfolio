@@ -81,7 +81,7 @@ with col1:
         st.markdown("Based on the tutor training data sample of the peer learning tutorial program; Academic Tutorial Student Excellence Program (A_STEP) at the University of the Free State (UFS). For more details, visit [Project Link](https://example.com).")
        
         # Display the PDF inline
-        display_pdf("https://github.com/T3kan0/Tekano_Mbonani_Portfolio/blob/main/Portfolio/pages/HEASA2022_053.pdf", height=iframe_height, width=500)  # Adjust width here as needed        
+        display_pdf("/pages/HEASA2022_053.pdf", height=iframe_height, width=500)  # Adjust width here as needed        
 with col2:
     with st.expander(":blue[Research Paper]: Physical inference from the temporal analysis of PKS 1510-089 during the 2014 - 2015 multi-wavelength flaring events."):
         st.markdown("The optical and gamma-ray temporal variability analysis of the quasar PKS 1510-089. Results include correlation studies and locating the emission region distance from the central supermassive black hole. For more details, visit [Project Link](https://example.com).")
