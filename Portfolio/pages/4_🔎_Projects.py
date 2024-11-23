@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-import pyreadr
 import scipy.stats as stats
 from scipy.stats import f_oneway
 from sklearn.linear_model import LinearRegression
@@ -23,8 +22,8 @@ st.set_page_config(
     )
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
-with open('config.css') as f:
-    st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+#with open('config.css') as f:
+    #st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 
 # Set a fixed height for the iframes
 iframe_height = 600
