@@ -22,8 +22,19 @@ st.set_page_config(
     )
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
-with open('https://github.com/T3kan0/Tekano_Mbonani_Portfolio/blob/main/Portfolio/config.css') as f:
-    st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+# URL of your CSS file on GitHub
+url = "https://raw.githubusercontent.com/T3kan0/Tekano_Mbonani_Portfolio/main/config.css"
+
+# Fetch the content
+response = requests.get(url)
+if response.status_code == 200:
+    css_content = response.text
+    st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
+else:
+    st.error("Failed to fetch CSS. Check the URL or connection.")
+
+
+
 
 
 
