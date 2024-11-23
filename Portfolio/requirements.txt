@@ -6,4 +6,4 @@ pandas
 PILLOW
 datetime
 requests
-PyPDF
+PdfReader
