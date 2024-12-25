@@ -60,7 +60,7 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-st.sidebar.write('Welcome')
+#st.sidebar.write('Welcome')
 
 
 # Function to display PDF
