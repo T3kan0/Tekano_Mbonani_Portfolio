@@ -63,11 +63,9 @@ st.markdown("""
 #st.sidebar.write('Welcome')
 
 
-# Function to display PDF
-def display_pdf(file_path, height=600, width=700):
-    with open(file_path, "rb") as f:
-        base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-    pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="{width}" height="{height}" type="application/pdf"></iframe>'
+# Function to display PDF from a link
+def display_pdf_from_link(pdf_link, height=600, width=700):
+    pdf_display = f'<iframe src="{pdf_link}" width="{width}" height="{height}" type="application/pdf"></iframe>'
     st.markdown(pdf_display, unsafe_allow_html=True)
 
 
@@ -86,7 +84,9 @@ with col2:
     with st.expander(":blue[Research Paper]: Physical inference from the temporal analysis of PKS 1510-089 during the 2014 - 2015 multi-wavelength flaring events."):
         st.markdown("The optical and gamma-ray temporal variability analysis of the quasar PKS 1510-089. Results include correlation studies and locating the emission region distance from the central supermassive black hole. For more details, visit [Project Link](https://example.com).")
         
-        display_pdf("Portfolio/pages/HEASA2022_053.pdf", height=iframe_height, width=500)  # Adjust width here as needed
+        # Display PDF from a link
+        pdf_link1 = "https://pos.sissa.it/426/053/pdf"
+        display_pdf_from_link(pdf_link1, height=600, width=500)
 
 st.markdown("""
     <hr style="border: 2px solid dimgrey;">
