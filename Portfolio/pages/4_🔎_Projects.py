@@ -76,14 +76,14 @@ col1, col2 = st.columns([50, 50])
 
 with col1:
     with st.expander(":blue[Research Slides]: Evaluating the effectiveness and implementation of skills, principles and strategies in tutor training."):
-        st.markdown("Based on the tutor training data sample of the peer learning tutorial program; Academic Tutorial Student Excellence Program (A_STEP) at the University of the Free State (UFS). For more details, visit [Project Link](https://example.com).")
+        st.markdown("Based on the tutor training data sample of the peer learning tutorial program; Academic Tutorial Student Excellence Program (A_STEP) at the University of the Free State (UFS). For more details, visit [Project Link](https://www.siyaphumelela.org.za/documents/66a368f4ab274.pdf).")
        
         # Display PDF from a link
         pdf_link1 = "https://www.siyaphumelela.org.za/documents/66a368f4ab274.pdf"
         display_pdf_from_link(pdf_link1, height=600, width=500)        
 with col2:
     with st.expander(":blue[Research Paper]: Physical inference from the temporal analysis of PKS 1510-089 during the 2014 - 2015 multi-wavelength flaring events."):
-        st.markdown("The optical and gamma-ray temporal variability analysis of the quasar PKS 1510-089. Results include correlation studies and locating the emission region distance from the central supermassive black hole. For more details, visit [Project Link](https://example.com).")
+        st.markdown("The optical and gamma-ray temporal variability analysis of the quasar PKS 1510-089. Results include correlation studies and locating the emission region distance from the central supermassive black hole. For more details, visit [Project Link](https://pos.sissa.it/426/053/pdf).")
         
         # Display PDF from a link
         pdf_link2 = "https://pos.sissa.it/426/053/pdf"
