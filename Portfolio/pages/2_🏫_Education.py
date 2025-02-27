@@ -97,7 +97,7 @@ with c4:
 st.write('''
 - ✔ :blue[Research Thesis Title]: _Probing the inner jet regions and emission mechanisms of the flat
 spectrum radio quasar 3C 279 and PKS 1510-089 through temporal and spectral variability studies_.
-- ✔ GPA/Mean: :blue[3.5/82%].
+- ✔ GPA/Mean: :blue[3.5/82.00%].
 - ✔ Presented research in at least :blue[_four conferences_].
 - ✔ Two :blue[_Proceedings of Sciences_] Published.
 
