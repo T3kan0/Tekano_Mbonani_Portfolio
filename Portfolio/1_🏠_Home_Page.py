@@ -42,7 +42,7 @@ st.markdown("""
         justify-content: center;
         align-items: center;
         height: 200px;
-        background: linear-gradient(to right, #f7f9fc, #ffffff);
+        background: linear-gradient(to right, #03396c, #ffffff);
         border-radius: 12px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.05);
         margin-bottom: 2rem;
