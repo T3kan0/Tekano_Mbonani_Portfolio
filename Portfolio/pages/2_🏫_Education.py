@@ -50,7 +50,7 @@ st.markdown("""
     <style>
     .edu-card {
         background-color: #f5f7fa;
-        border-left: 6px solid #a4c330;
+        border-left: 6px solid #6497b1;
         padding: 1.5rem;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.05);
