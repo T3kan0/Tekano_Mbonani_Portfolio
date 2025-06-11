@@ -99,9 +99,9 @@ with c2:
         </div>
     """, unsafe_allow_html=True)
 
-#st.markdown("""
-    #<hr style="border: 2px solid dimgrey;">
-#""", unsafe_allow_html=True)
+st.markdown("""
+    <hr style="border: 2px solid #b3cde0;">
+""", unsafe_allow_html=True)
 
 # Socials
 
