@@ -88,17 +88,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-#st.write('''
-#- ✔ :blue[Research Thesis Title]: _Probing the inner jet regions and emission mechanisms of the flat
-#spectrum radio quasar 3C 279 and PKS 1510-089 through temporal and spectral variability studies_.
-#- ✔ GPA/Mean: :blue[3.5/82.00%].
-#- ✔ Presented research in at least :blue[_four conferences_].
-#- ✔ Two :blue[_Proceedings of Sciences_] Published.
 
-#:orange[Skills]: Astrophysics, Research, Python & IRAF (Programmming Languages), Data Analysis, Oral & Written Communication
-#''')
 st.markdown("""
-    <hr style="border: 2px solid dimgrey;">
+    <hr style="border: 2px solid darkblue;">
 """, unsafe_allow_html=True)
 
 c5, c6, c7, c8 = st.columns([31, 20, 35, 15])
