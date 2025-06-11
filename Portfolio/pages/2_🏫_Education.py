@@ -90,7 +90,7 @@ st.markdown("""
 
 
 st.markdown("""
-    <hr style="border: 2px solid darkblue;">
+    <hr style="border: 2px solid #6497b1;">
 """, unsafe_allow_html=True)
 
 c5, c6, c7, c8 = st.columns([31, 20, 35, 15])
