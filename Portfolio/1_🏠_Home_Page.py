@@ -84,13 +84,13 @@ with c2:
             max-width: 320px;
             border-radius: 20px;
             box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
-            border: 4px solid #6c63ff;
+            border: 4px solid #b3cde0;
             transition: transform 0.3s ease, border-color 0.3s ease;
         }
 
         .profile-image:hover {
             transform: scale(1.03);
-            border-color: #ff4b4b;
+            border-color: #011f4b;
         }
         </style>
 
