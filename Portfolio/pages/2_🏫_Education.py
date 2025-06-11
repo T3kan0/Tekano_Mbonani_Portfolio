@@ -20,15 +20,24 @@ st.set_page_config(
 
 st.markdown("""
     <style>
-    .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100px;
+    .header-container {
+        background: linear-gradient(to right, #dbe9f4, #ffffff);
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+        margin-bottom: 1rem;
+    }
+    .header-title {
+        text-align: center;
+        color: #2c3e50;
+        font-size: 3rem;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
     }
     </style>
-    <div class="center">
-        <h1 style="color: dimgrey;">EDUCATION</h1>
+    <div class="header-container">
+        <div class="header-title">🎓 EDUCATION</div>
     </div>
 """, unsafe_allow_html=True)
 
