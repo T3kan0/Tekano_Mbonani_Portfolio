@@ -67,35 +67,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-st.markdown("""
-    <style>
-    .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 120px;
-    }
-    </style>
-    <div class="center">
-        <h1 style="color: dimgrey;">Tekano Mbonani, M.Sc.</h1>
-    </div>
-""", unsafe_allow_html=True)
-    
-st.markdown("""
-        <style>
-        .center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100px;
-        }
-        </style>
-        <div class="center">
-            <h4 style="color: dimgrey;"><em>Welcome To My Portfolio</em></h4>
-        </div>
-""", unsafe_allow_html=True)
-
-
 EMAIL = 'mbonanits@ufs.ac.za'
 
 SOCIAL_MEDIA = {
