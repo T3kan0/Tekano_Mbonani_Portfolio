@@ -50,7 +50,7 @@ st.markdown("""
     .intro-title {
         font-size: 2.8rem;
         font-weight: bold;
-        color: #2c3e50;
+        color: #011f4b;
         margin-bottom: 0.5rem;
     }
     .intro-subtitle {
