@@ -67,6 +67,16 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Socials
+
+EMAIL = 'mbonanits@ufs.ac.za'
+
+SOCIAL_MEDIA = {
+    'LinkedIn': ('https://linkedin.com/in/tekano-mbonani', 'https://cdn-icons-png.flaticon.com/512/174/174857.png'),
+    'Github': ('https://github.com/T3kan0', 'https://cdn-icons-png.flaticon.com/512/733/733553.png'),
+    'Streamlit': ('https://share.streamlit.io/user/t3kan0', 'https://streamlit.io/images/brand/streamlit-mark-color.svg'),
+    'Upwork': ('https://www.upwork.com/freelancers/~017eff56853580df4c?mp_source=share', 'https://cdn.worldvectorlogo.com/logos/upwork-1.svg')
+}
+
 st.markdown(f"""
     <style>
     .social-container {{
@@ -115,21 +125,6 @@ st.markdown(f"""
         📧 <a href="mailto:{EMAIL}" style="color: #6c63ff;">{EMAIL}</a>
     </div>
 """, unsafe_allow_html=True)
-
-
-
-
-
-
-
-EMAIL = 'mbonanits@ufs.ac.za'
-
-SOCIAL_MEDIA = {
-    'LinkedIn': ('https://linkedin.com/in/tekano-mbonani', 'https://cdn-icons-png.flaticon.com/512/174/174857.png'),
-    'Github': ('https://github.com/T3kan0', 'https://cdn-icons-png.flaticon.com/512/733/733553.png'),
-    'Streamlit': ('https://share.streamlit.io/user/t3kan0', 'https://streamlit.io/images/brand/streamlit-mark-color.svg'),
-    'Upwork': ('https://www.upwork.com/freelancers/~017eff56853580df4c?mp_source=share', 'https://cdn.worldvectorlogo.com/logos/upwork-1.svg')
-}
 
 
 
