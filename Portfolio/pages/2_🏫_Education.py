@@ -88,10 +88,53 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-
 st.markdown("""
     <hr style="border: 2px solid #6497b1;">
 """, unsafe_allow_html=True)
+
+# ADD this instead
+st.markdown("""
+    <style>
+    .edu-card {
+        background-color: #f5f7fa;
+        border-left: 6px solid #6497b1;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        margin-bottom: 2rem;
+    }
+    .edu-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #011f4b;
+    }
+    .edu-subtitle {
+        font-size: 1rem;
+        color: #7f8c8d;
+    }
+    .edu-date {
+        float: right;
+        font-weight: 600;
+        color: #011f4b;
+    }
+    </style>
+
+    <div class="edu-card">
+        <div class="edu-title">🎓 Bachelor of Science: Honours <span class="edu-subtitle">(Astrophysics)</span> 
+            <span class="edu-date">2017 - 2017</span>
+        </div>
+        <div class="edu-subtitle">University of the Free State</div>
+        <ul>
+            <li><b>Research Topics:</b> Optical, X-ray & Gamma-ray Photometry and Spectroscopy</li>
+            <li><b>GPA:</b> 3.0/70.44%</li>
+            <li><b>Observations at the Boyden Observatory:</b> The Watcher and 1.5m Telescopes</li>
+            <li><b>Publications:</b> 2 in Proceedings of Sciences</li>
+        </ul>
+        <div><b>Skills:</b> Astrophysics, Python, IRAF, Data Analysis, Communication</div>
+    </div>
+""", unsafe_allow_html=True)
+
+
 
 c5, c6, c7, c8 = st.columns([31, 20, 35, 15])
 
