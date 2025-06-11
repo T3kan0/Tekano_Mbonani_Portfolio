@@ -79,8 +79,8 @@ with c2:
         }
 
         .profile-image {
-            width: 200px;
-            height: 200px;
+            width: 280px;
+            height: 280px;
             border-radius: 50%;
             object-fit: cover;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
