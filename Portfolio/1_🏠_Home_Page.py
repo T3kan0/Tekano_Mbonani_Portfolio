@@ -100,25 +100,6 @@ with c2:
     """, unsafe_allow_html=True)
 
 
-
-c1, c2, c3 = st.columns([25, 50, 25])
-
-st.markdown("""
-    <style>
-    .center-image {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-    }
-    </style>
-    <div class="center-image">
-        <img src="https://i.postimg.cc/BQnYw23B/image.png" alt="Alt Text"/>
-    </div>
-""", unsafe_allow_html=True)
-
-
-
 # Socials
 
 EMAIL = 'mbonanits@ufs.ac.za'
