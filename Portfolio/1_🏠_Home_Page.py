@@ -68,6 +68,41 @@ st.markdown("""
 
 c1, c2, c3 = st.columns([25, 50, 25])
 
+with c2:
+    st.markdown("""
+        <style>
+        .profile-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            border: 4px solid #6c63ff;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-image:hover {
+            transform: scale(1.05);
+            border-color: #ff4b4b;
+        }
+        </style>
+
+        <div class="profile-container">
+            <img class="profile-image" src="https://i.postimg.cc/BQnYw23B/image.png" alt="Tekano Mbonani Portrait"/>
+        </div>
+    """, unsafe_allow_html=True)
+
+
+
+c1, c2, c3 = st.columns([25, 50, 25])
+
 st.markdown("""
     <style>
     .center-image {
@@ -135,19 +170,6 @@ st.markdown(f"""
         📧 <a href="mailto:{EMAIL}" style="color: #6c63ff;">{EMAIL}</a>
     </div>
 """, unsafe_allow_html=True)
-
-col12, col22 = st.columns([40, 60])
-
-with col22:
-    # Center email and download button
-    st.write('📨', EMAIL)
-    
-    st.download_button(
-        label=":blue[Download My Resume]",
-        data="Resume data here",
-        file_name="Tekano_Resume2023.pdf",
-        mime="application/pdf"
-    )
 
 
 st.markdown("""
