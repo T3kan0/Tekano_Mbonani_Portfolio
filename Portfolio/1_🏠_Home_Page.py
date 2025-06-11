@@ -34,11 +34,38 @@ response = requests.get(url)
     #st.error("Failed to fetch CSS. Check the URL or connection.")
 
 
+st.markdown("""
+    <style>
+    .intro-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        background: linear-gradient(to right, #f7f9fc, #ffffff);
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        margin-bottom: 2rem;
+    }
+    .intro-title {
+        font-size: 2.8rem;
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 0.5rem;
+    }
+    .intro-subtitle {
+        font-size: 1.3rem;
+        font-style: italic;
+        color: #7f8c8d;
+    }
+    </style>
 
+    <div class="intro-container">
+        <div class="intro-title">Tekano Mbonani, M.Sc.</div>
+        <div class="intro-subtitle">Welcome To My Portfolio</div>
+    </div>
+""", unsafe_allow_html=True)
 
-
-
-#st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 
 st.markdown("""
     <style>
