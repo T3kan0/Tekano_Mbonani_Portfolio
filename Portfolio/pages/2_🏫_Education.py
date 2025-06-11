@@ -59,7 +59,7 @@ st.markdown("""
     .edu-title {
         font-size: 1.5rem;
         font-weight: bold;
-        color: #2c3e50;
+        color: #011f4b;
     }
     .edu-subtitle {
         font-size: 1rem;
@@ -68,7 +68,7 @@ st.markdown("""
     .edu-date {
         float: right;
         font-weight: 600;
-        color: #a4c330;
+        color: #011f4b;
     }
     </style>
 
