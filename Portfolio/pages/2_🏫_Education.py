@@ -42,7 +42,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-    <hr style="border: 2px solid blue;">
+    <hr style="border: 2px solid iceberg;">
 """, unsafe_allow_html=True)
 
 # ADD this instead
