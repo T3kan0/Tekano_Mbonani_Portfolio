@@ -128,7 +128,7 @@ st.markdown("""
             <li><b>Research Topics:</b> Optical, X-ray & Gamma-ray Photometry and Spectroscopy</li>
             <li><b>GPA:</b> 3.0/70.44%</li>
             <li><b>Observations at the Boyden Observatory:</b> The Watcher and 1.5m Telescopes</li>
-            <li><b>Publications:</b> 2 in Proceedings of Sciences</li>
+            #<li><b>Publications:</b> 2 in Proceedings of Sciences</li>
         </ul>
         <div><b>Skills:</b> Astrophysics, Research, Python & IRAF (Programmming Languages), Data Analysis</div>
     </div>
