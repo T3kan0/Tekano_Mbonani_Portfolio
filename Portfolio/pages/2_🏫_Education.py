@@ -29,7 +29,7 @@ st.markdown("""
     }
     .header-title {
         text-align: center;
-        color: #2c3e50;
+        color: #011f4b;
         font-size: 3rem;
         font-weight: bold;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
