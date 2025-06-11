@@ -68,7 +68,7 @@ st.markdown("""
     .edu-date {
         float: right;
         font-weight: 600;
-        color: #6c63ff;
+        color: #a4c330;
     }
     </style>
 
