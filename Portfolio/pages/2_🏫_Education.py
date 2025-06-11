@@ -88,10 +88,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-#st.markdown("""
-#    <hr style="border: 2px solid #6497b1;">
-#""", unsafe_allow_html=True)
-
 # BSc H
 st.markdown("""
     <style>
@@ -134,9 +130,47 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+# BSc
 st.markdown("""
-    <hr style="border: 2px solid dimgrey;">
+    <style>
+    .edu-card {
+        background-color: #f5f7fa;
+        border-left: 6px solid #6497b1;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        margin-bottom: 2rem;
+    }
+    .edu-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #011f4b;
+    }
+    .edu-subtitle {
+        font-size: 1rem;
+        color: #7f8c8d;
+    }
+    .edu-date {
+        float: right;
+        font-weight: 600;
+        color: #011f4b;
+    }
+    </style>
+
+    <div class="edu-card">
+        <div class="edu-title">🎓 Bachelor of Science <span class="edu-subtitle">(Astrophysics)</span> 
+            <span class="edu-date">2014 - 2016</span>
+        </div>
+        <div class="edu-subtitle">University of the Free State</div>
+        <ul>
+            <li><b>University of the Free State:</b> 8 Graduate Attributes</li>
+            <li><b>GPA:</b> 2.0/68.35%</li>
+        </ul>
+        <div><b>Skills:</b> Physics, Astronomy, Calculus, Differential Equations, IRAF (Programming Language)</div>
+    </div>
 """, unsafe_allow_html=True)
+
+
 
 c9, c10, c11, c12 = st.columns([31, 20, 35, 15])
 
