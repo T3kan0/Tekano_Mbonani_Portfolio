@@ -41,11 +41,11 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-    <hr style="border: 2px solid #6497b1;">
-""", unsafe_allow_html=True)
+#st.markdown("""
+#    <hr style="border: 2px solid #6497b1;">
+#""", unsafe_allow_html=True)
 
-# ADD this instead
+# MSc
 st.markdown("""
     <style>
     .edu-card {
@@ -92,7 +92,7 @@ st.markdown("""
 #    <hr style="border: 2px solid #6497b1;">
 #""", unsafe_allow_html=True)
 
-# ADD this instead
+# BSc H
 st.markdown("""
     <style>
     .edu-card {
