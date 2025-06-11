@@ -130,81 +130,10 @@ st.markdown("""
             <li><b>Observations at the Boyden Observatory:</b> The Watcher and 1.5m Telescopes</li>
             <li><b>Publications:</b> 2 in Proceedings of Sciences</li>
         </ul>
-        <div><b>Skills:</b> Astrophysics, Python, IRAF, Data Analysis, Communication</div>
+        <div><b>Skills:</b> Astrophysics, Research, Python & IRAF (Programmming Languages), Data Analysis</div>
     </div>
 """, unsafe_allow_html=True)
 
-
-
-c5, c6, c7, c8 = st.columns([31, 20, 35, 15])
-
-with c5:
-    st.markdown("""
-        <style>
-        .left {
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            height: 100px;
-        }
-        </style>
-        <div class="left">
-            <h4 style="color: dimgrey;">Bachelor of Science: Honours</h4>
-        </div>
-    """, unsafe_allow_html=True)    
-
-with c6:
-    st.markdown("""
-        <style>
-        .left {
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            height: 100px;
-        }
-        </style>
-        <div class="left">
-            <h4 style="color: dimgrey;">(Astrophysics)</h4>
-        </div>
-    """, unsafe_allow_html=True)
-with c7:
-    st.markdown("""
-        <style>
-        .left {
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            height: 100px;
-        }
-        </style>
-        <div class="left">
-            <h4 style="color: dimgrey;">University of the Free State</h4>
-        </div>
-    """, unsafe_allow_html=True)
-
-with c8:
-    st.markdown("""
-        <style>
-        .left {
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            height: 100px;
-        }
-        </style>
-        <div class="left">
-            <h4 style="color: dimgrey;">2017 - 2017</h4>
-        </div>
-    """, unsafe_allow_html=True)
-
-
-st.write('''
-- ✔ :blue[Research Topics]: _Optical, X-ray & Gamma-ray Photometry and Spectroscopy_.
-- ✔ GPA/Mean: :blue[3.0/70.44%].
-- ✔ Observations at the Boyden Observatory: :blue[_The Watcher and 1.5m Telescopes_].
-
-:orange[Skills]: Astrophysics, Research, Python & IRAF (Programmming Languages), Data Analysis
-''')
 
 st.markdown("""
     <hr style="border: 2px solid dimgrey;">
