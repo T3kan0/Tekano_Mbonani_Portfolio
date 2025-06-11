@@ -66,6 +66,24 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
+c1, c2, c3 = st.columns([25, 50, 25])
+
+st.markdown("""
+    <style>
+    .center-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    </style>
+    <div class="center-image">
+        <img src="https://i.postimg.cc/BQnYw23B/image.png" alt="Alt Text"/>
+    </div>
+""", unsafe_allow_html=True)
+
+
+
 # Socials
 
 EMAIL = 'mbonanits@ufs.ac.za'
@@ -118,23 +136,6 @@ st.markdown(f"""
     </div>
 """, unsafe_allow_html=True)
 
-
-c1, c2, c3 = st.columns([25, 50, 25])
-
-st.markdown("""
-    <style>
-    .center-image {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-    }
-    </style>
-    <div class="center-image">
-        <img src="https://i.postimg.cc/BQnYw23B/image.png" alt="Alt Text"/>
-    </div>
-""", unsafe_allow_html=True)
-
 col12, col22 = st.columns([40, 60])
 
 with col22:
@@ -147,23 +148,6 @@ with col22:
         file_name="Tekano_Resume2023.pdf",
         mime="application/pdf"
     )
-
-    
-st.markdown("""
-    <hr style="border: 2px solid dimgrey;">
-""", unsafe_allow_html=True)
-
-
-cols = st.columns(len(SOCIAL_MEDIA))
-
-for index, (platform, (links, img_src)) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].markdown(f"""
-    <div style="display: flex; justify-content: center; flex-direction: column; align-items: center;">
-        <img src="{img_src}" alt="{platform}" style="width: 40px; height: 40px;"/>
-        <a href="{links}" target="_blank" style="text-decoration: none; color: #378cfc; text-decoration: underline;">{platform}</a>
-    </div>
-    """, unsafe_allow_html=True)
-
 
 
 st.markdown("""
