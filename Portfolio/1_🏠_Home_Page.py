@@ -80,7 +80,7 @@ with c2:
         }
 
         .profile-image {
-            width: 80%;
+            width: 60%;
             max-width: 320px;
             border-radius: 20px;
             box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
