@@ -66,6 +66,7 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
+
 c1, c2, c3 = st.columns([25, 50, 25])
 
 with c2:
@@ -79,23 +80,22 @@ with c2:
         }
 
         .profile-image {
-            width: 280px;
-            height: 280px;
-            border-radius: 50%;
-            object-fit: cover;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 320px;
+            border-radius: 20px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
             border: 4px solid #6c63ff;
-            transition: transform 0.3s ease;
+            transition: transform 0.3s ease, border-color 0.3s ease;
         }
 
         .profile-image:hover {
-            transform: scale(1.05);
+            transform: scale(1.03);
             border-color: #ff4b4b;
         }
         </style>
 
         <div class="profile-container">
-            <img class="profile-image" src="https://i.postimg.cc/BQnYw23B/image.png" alt="Tekano Mbonani Portrait"/>
+            <img class="profile-image" src="https://i.postimg.cc/BQnYw23B/image.png" alt="Tekano Mbonani"/>
         </div>
     """, unsafe_allow_html=True)
 
