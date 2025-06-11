@@ -45,63 +45,47 @@ st.markdown("""
     <hr style="border: 2px solid dimgrey;">
 """, unsafe_allow_html=True)
 
-c1, c2, c3, c4 = st.columns([31, 20, 35, 15])
-with c1:
-    st.markdown("""
-        <style>
-        .left {
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            height: 100px;
-        }
-        </style>
-        <div class="left">
-            <h4 style="color: dimgrey;">Master of Science</h4>
+# ADD this instead
+st.markdown("""
+    <style>
+    .edu-card {
+        background-color: #f5f7fa;
+        border-left: 6px solid #6c63ff;
+        padding: 1.5rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        margin-bottom: 2rem;
+    }
+    .edu-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #2c3e50;
+    }
+    .edu-subtitle {
+        font-size: 1rem;
+        color: #7f8c8d;
+    }
+    .edu-date {
+        float: right;
+        font-weight: 600;
+        color: #6c63ff;
+    }
+    </style>
+
+    <div class="edu-card">
+        <div class="edu-title">🎓 Master of Science <span class="edu-subtitle">(Astrophysics)</span> 
+            <span class="edu-date">2018 – 2024</span>
         </div>
-    """, unsafe_allow_html=True)
-with c2:
-    st.markdown("""
-        <style>
-        .left {
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            height: 100px;
-        }
-        </style>
-        <div class="left">
-            <h4 style="color: dimgrey;">(Astrophysics)</h4>
-        </div>
-    """, unsafe_allow_html=True)
-with c3:
-    st.markdown("""
-        <style>
-        .left {
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            height: 100px;
-        }
-        </style>
-        <div class="left">
-            <h4 style="color: dimgrey;">University of the Free State</h4>
-        </div>
-    """, unsafe_allow_html=True)
-with c4:
-    st.markdown("""
-        <style>
-        .left {
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            height: 100px;
-        }
-        </style>
-        <div class="left">
-            <h4 style="color: dimgrey;">2018 - 2024</h4>
-        </div>
-    """, unsafe_allow_html=True)
+        <div class="edu-subtitle">University of the Free State</div>
+        <ul>
+            <li><b>Thesis:</b> Probing 3C 279 and PKS 1510-089 variability</li>
+            <li><b>GPA:</b> 3.5 / 82.00%</li>
+            <li><b>Conferences:</b> 4 presented</li>
+            <li><b>Publications:</b> 2 in Proceedings of Sciences</li>
+        </ul>
+        <div><b>Skills:</b> Astrophysics, Python, IRAF, Data Analysis, Communication</div>
+    </div>
+""", unsafe_allow_html=True)
 
 st.write('''
 - ✔ :blue[Research Thesis Title]: _Probing the inner jet regions and emission mechanisms of the flat
