@@ -77,55 +77,46 @@ SOCIAL_MEDIA = {
     'Upwork': ('https://www.upwork.com/freelancers/~017eff56853580df4c?mp_source=share', 'https://cdn.worldvectorlogo.com/logos/upwork-1.svg')
 }
 
-st.markdown(f"""
+# --- Style for hover & layout ---
+st.markdown("""
     <style>
-    .social-container {{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
-        flex-wrap: wrap;
-        margin-bottom: 2rem;
-    }}
-    .social-item {{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-decoration: none;
-        transition: transform 0.2s;
-    }}
-    .social-item:hover {{
-        transform: scale(1.1);
-    }}
-    .social-icon {{
+    .social-icon {
         width: 40px;
         height: 40px;
-        margin-bottom: 0.5rem;
-    }}
-    .social-label {{
+        margin-bottom: 6px;
+        transition: transform 0.2s ease-in-out;
+    }
+    .social-icon:hover {
+        transform: scale(1.15);
+    }
+    .social-label {
         font-size: 0.9rem;
         color: #2c3e50;
         text-align: center;
-    }}
+        margin-top: 0px;
+    }
     </style>
-    <div class="social-container">
 """, unsafe_allow_html=True)
 
-for platform, (url, icon_url) in SOCIAL_MEDIA.items():
-    st.markdown(f"""
-        <a class="social-item" href="{url}" target="_blank">
-            <img src="{icon_url}" class="social-icon" alt="{platform} icon" />
+# --- Layout social media in a row using columns ---
+cols = st.columns(len(SOCIAL_MEDIA))
+
+for col, (platform, (url, icon)) in zip(cols, SOCIAL_MEDIA.items()):
+    col.markdown(f"""
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <a href="{url}" target="_blank">
+                <img src="{icon}" class="social-icon" alt="{platform} icon"/>
+            </a>
             <div class="social-label">{platform}</div>
-        </a>
+        </div>
     """, unsafe_allow_html=True)
 
-# Optional: show email below
+# --- Optional: email centered below ---
 st.markdown(f"""
-    <div style='text-align: center; margin-top: 10px; color: grey; font-size: 0.9rem;'>
+    <div style='text-align: center; margin-top: 20px; font-size: 0.9rem; color: grey;'>
         📧 <a href="mailto:{EMAIL}" style="color: #6c63ff;">{EMAIL}</a>
     </div>
 """, unsafe_allow_html=True)
-
 
 
 c1, c2, c3 = st.columns([25, 50, 25])
