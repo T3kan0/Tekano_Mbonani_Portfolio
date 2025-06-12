@@ -170,9 +170,6 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-    <hr style="border: 2px solid #b3cde0;">
-""", unsafe_allow_html=True)
 
 st.info('''
 - ✅ Experienced :orange[Data Analyst], :red[Web-app Developer] and :green[Researcher] in data-oriented environment, with passion for delivering insights based on predictive modeling and other statistical methods. 
