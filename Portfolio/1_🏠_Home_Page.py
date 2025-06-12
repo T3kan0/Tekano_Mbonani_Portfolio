@@ -174,11 +174,6 @@ st.markdown("""
 
 
 st.markdown("""
-    <hr style="border: 2px solid dimgrey;">
-""", unsafe_allow_html=True)
-
-
-st.markdown("""
 <h3 style="color: dimgrey;" align="center">Languages and Tools:</h3>
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
     <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
