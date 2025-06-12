@@ -85,9 +85,9 @@ skills = ":orange[Skills]: MicroSoft Power BI & Excel, Python & R (programming l
 
 # Display the card
 display_work_card(
-    title="Research Data Analyst & Developer",
+    title="Officer: Jnr Data Analyst",
     organization="Centre for Teaching and Learning (CTL), University of the Free State (UFS)",
-    date_range="Jan 2022 – Present",
+    date_range="May 2024 – Present",
     details_markdown=details,
     skills_markdown=skills
 )
