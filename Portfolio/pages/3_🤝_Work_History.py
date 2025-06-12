@@ -121,7 +121,7 @@ skills_3 = ":orange[Skills]: Excel, Python, Data Collection & Processing, Survey
 # Display the card
 display_work_card(
     title="Research Assistant: Data Analysis",
-    organization="Centre for Teaching and Learning (CTL), University of the Free State (UFS)",
+    organization="Centre for Teaching and Learning (CTL), Department of Physics, University of the Free State (UFS)",
     date_range="22/09/01 - 23/12/31",
     details_markdown=RA,
     skills_markdown=skills_3
