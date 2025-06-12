@@ -155,7 +155,9 @@ st.markdown(f"""
     </div>
 """, unsafe_allow_html=True)
 
-st.write('')
+st.markdown("""
+    <hr style="border: 2px solid #b3cde0;">
+""", unsafe_allow_html=True)
 
 st.markdown("""
 <div style="background-color: #f0f2f6; padding: 20px; border-radius: 10px; border-left: 5px solid #6497b1;">
@@ -170,6 +172,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+st.write('')
 st.write('')
 
 st.markdown("""
