@@ -152,11 +152,11 @@ display_work_card(
 
 # Job details and skills
 PA = '''
-- Compiling and presenting educational and intriguing programs or shows based on :blue[space science] & :blue[astronomy] topics to the general public.
-- Presented shows in :blue[Sotho] & :blue[English].
-- Operated the complex :blue[planterium] equipment. 
+- Delivered engaging and educational programs on :blue[space science] and :blue[astronomy] topics to diverse public audiences.  
+- Presented shows in both :blue[English] and :blue[Sotho], ensuring accessibility and inclusivity.  
+- Operated and maintained advanced :blue[planetarium] projection equipment during public and school shows.  
 '''
-skills_5 = ":orange[Skills]: Oral Communication, Astronomy, Computer Literacy, Story Telling"
+skills_5 = ":orange[Skills]: Public Speaking, Astronomy Communication, Bilingual Presentation (Sotho & English), Planetarium Equipment Operation, Digital Literacy"
 
 # Display the card
 display_work_card(
