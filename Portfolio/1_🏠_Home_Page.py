@@ -172,7 +172,7 @@ st.markdown("""
     </style>
 
     <div class="icon-header">
-        <span>🧑‍🚀</span> From Physics to Python
+        Professional Summary
     </div>
 """, unsafe_allow_html=True)
 
