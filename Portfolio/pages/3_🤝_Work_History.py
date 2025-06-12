@@ -112,6 +112,10 @@ display_work_card(
 
 # Job details and skills
 RA = '''
+- DoP (18/01/01 - 21/06/31)
+- Facilitated tutorials and laboratory assistance for first-year modules: :blue[PHYS1514] and :blue[PHYA1554].    
+- Assessed student submissions and delivered constructive :blue[feedback] to support academic development.
+CTL (21/09/01 - 22/08/31)
 - Contributed to a team of interns and research assistants to design effective survey instruments for tutorial data collection.  
 - Consolidated and processed weekly tutorial attendance registers, ensuring accurate storage in the UFS :blue[database management systems].  
 - Delivered weekly :blue[statistical summaries] of tutorial data to Teaching and Learning Coordinators (TLCs) across the _Bloemfontein_ and _QwaQwa_ campuses.  
@@ -122,17 +126,13 @@ skills_3 = ":orange[Skills]: Excel, Python, Data Collection & Processing, Survey
 display_work_card(
     title="Research Assistant: Data Analysis",
     organization="Department of Physics (DoP) and Centre for Teaching and Learning (CTL), University of the Free State (UFS)",
-    date_range="22/09/01 - 23/12/31",
+    date_range="18/01/01 - 23/12/31",
     details_markdown=RA,
     skills_markdown=skills_3
 )
 
 # Job details and skills
 TA = '''
-- DoP (18/01/01 - 21/06/31)
-- Facilitated tutorials and laboratory assistance for first-year modules: :blue[PHYS1514] and :blue[PHYA1554].    
-- Assessed student submissions and delivered constructive :blue[feedback] to support academic development.  
-- CTL (21/09/01 - 22/08/31)
 - Facilitated tutorials and academic support for first-year modules: :blue[UFSS1504] and :blue[UFSS1522].  
 - Served as a :blue[peer mentor], providing guidance and support to students enrolled in the modules.  
 - Assessed student submissions and delivered constructive :blue[feedback] to support academic development.  
