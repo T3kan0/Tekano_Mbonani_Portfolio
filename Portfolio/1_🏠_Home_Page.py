@@ -165,7 +165,7 @@ st.markdown("""
         letter-spacing: .12em;
         animation: 
             typing 1.8s steps(20, end),
-            blink-caret .75s step-end 3;
+            blink-caret .75s step-end 1;
         color: #011f4b;
         font-size: 38px;
         text-align: center;
