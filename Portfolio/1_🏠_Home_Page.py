@@ -161,8 +161,8 @@ st.markdown("""
 
 st.markdown("""
 <div style="background-color: #f0f2f6; padding: 20px; border-radius: 10px; border-left: 5px solid #6497b1;">
-    <h4 style="margin-top: 0;">🌟 <strong>Professional Snapshot</strong></h4>
-    <ul style="line-height: 1.8; font-size: 16px; color: #011f4b;">
+    <h4 style="margin-top: 0;">🌟 <strong style="color:#FFA500;">Professional Snapshot</strong></h4>
+    <ul style="line-height: 1.8; font-size: 16px; color: #333;">
         <li><strong style="color:#FFA500;">Data Analyst</strong>, <strong style="color:#FF4B4B;">Web App Developer</strong>, and <strong style="color:#2ECC71;">Researcher</strong> with a passion for extracting insights through predictive modeling and statistical methods.</li>
         <li>Holder of an <strong>M.Sc. in Astrophysics</strong>, with aspirations to advance in the field of astronomical research.</li>
         <li>Experienced tutor in <strong style="color:#FF4B4B;">Python</strong>, <strong style="color:#FF4B4B;">R</strong>, Mathematics, and Physics — delivered both <em>online</em> and <em>face-to-face</em>.</li>
