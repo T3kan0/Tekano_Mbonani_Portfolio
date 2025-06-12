@@ -117,7 +117,7 @@ RA = '''
 - Conducted :blue[research] in Astrophysics topics that included multi-wavelength studies of :blue[Active Galactic Nucleus (AGNs)].
 - Collected observational and archival data using telescopes at the :blue[Boyden observatory (Optical)] & :blue[_FERMI_ - Large Area Telescope (Gamma-ray)].
 - Developed :blue[data analysis] pipelines
-- ***CTL*** (22/09/01 - 23/12/31)
+- **CTL** (22/09/01 - 23/12/31)
 - Contributed to a team of interns and research assistants to design effective survey instruments for tutorial data collection.  
 - Consolidated and processed weekly tutorial attendance registers, ensuring accurate storage in the UFS :blue[database management systems].  
 - Delivered weekly :blue[statistical summaries] of tutorial data to Teaching and Learning Coordinators (TLCs) across the _Bloemfontein_ and _QwaQwa_ campuses.  
@@ -126,7 +126,7 @@ skills_3 = ":orange[Skills]: Research (astrophysics), Academic Tutoring, Excel, 
 
 # Display the card
 display_work_card(
-    title="Research Assistant: Data Analysis",
+    title="Research Assistant: Research and Data Analysis",
     organization="Department of Physics (DoP) and Centre for Teaching and Learning (CTL), University of the Free State (UFS)",
     date_range="18/01/01 - 23/12/31",
     details_markdown=RA,
