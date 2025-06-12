@@ -177,6 +177,8 @@ st.write('')
 
 st.markdown("""
 
+<h3 style="color: dimgrey; text-align: left; margin-bottom: 20px;">🧰 Languages & Tools</h3>
+
 <style>
 .tech-icons-container {
     display: flex;
