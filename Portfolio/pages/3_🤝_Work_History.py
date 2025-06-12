@@ -69,7 +69,7 @@ def display_work_card(title, organization, date_range, details_markdown, skills_
             st.write(details_markdown)
             st.markdown(skills_markdown)
 
-
+# Job details and skills
 details = '''
 - ✔ Leading a team of at least seven interns and research assistants in :blue[A_STEP] to ensure the building of effective survey forms, and that the tutorial data is collected, processed and stored in the UFS database management systems in place.  
 - ✔ Developed :blue[5+ Web Applications] that automated and standardized data processes, thus boosted the productivity by several factors.  
@@ -83,13 +83,16 @@ details = '''
 
 skills = ":orange[Skills]: MicroSoft Power BI & Excel, Python & R (programming languages), HTML, CSS, SPSS, NVIVO, Written & Oral Communication, Automation"
 
+# Display the card
 display_work_card(
     title="Research Data Analyst & Developer",
-    organization="University of the Free State",
+    organization="Centre for Teaching and Learning (CTL), University of the Free State (UFS)",
     date_range="Jan 2022 – Present",
     details_markdown=details,
     skills_markdown=skills
 )
+
+
 
 
 c1, c2, c3, c4 = st.columns([31, 20, 35, 15])
