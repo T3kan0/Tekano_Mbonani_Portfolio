@@ -47,75 +47,36 @@ st.markdown("""
 
 
 #### Header
-st.markdown("""
-<style>
-.work-card {
-    border: 1px solid #ddd;
-    border-left: 5px solid #011f4b;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    background-color: #fafafa;
-}
-.work-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 10px;
-}
-.work-title {
-    font-size: 20px;
-    color: #011f4b;
-    font-weight: bold;
-}
-.work-meta {
-    font-size: 14px;
-    color: #444;
-}
-ul.work-bullets {
-    padding-left: 20px;
-    margin-top: 10px;
-}
-ul.work-bullets li {
-    margin-bottom: 8px;
-    font-size: 15px;
-    color: #333;
-}
-.skills-line {
-    margin-top: 15px;
-    font-weight: 500;
-    color: #ff7a00;
-    font-size: 14px;
-}
-</style>
+def work_card(title, org, dates, bullets, skills):
+    bullet_html = ''.join(f"<li>{b}</li>" for b in bullets)
+    st.markdown(f"""
+    <div style="
+        border: 1px solid #ddd;
+        border-left: 5px solid #011f4b;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        background-color: #fafafa;
+    ">
 
-<div class="work-card">
-    <div class="work-header">
-        <div>
-            <div class="work-title">Officer: Junior Data Analyst</div>
-            <div class="work-meta">Centre for Teaching and Learning (CTL), University of the Free State (UFS)</div>
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
+            <div>
+                <div style="font-size: 20px; color: #011f4b; font-weight: bold;">{title}</div>
+                <div style="font-size: 14px; color: #444;">{org}</div>
+            </div>
+            <div style="font-size: 14px; color: #444;">{dates}</div>
         </div>
-        <div class="work-meta">May 2021 – Present</div>
-    </div>
 
-    <ul class="work-bullets">
-        <li>Leading a team of 7+ interns in <span style="color:#1f77b4;">A_STEP</span> for data collection and database management.</li>
-        <li>Built <span style="color:#1f77b4;">5+ web applications</span> to automate workflows and boost productivity.</li>
-        <li>Managed weekly tutorial data in UFS internal DB systems.</li>
-        <li>Authoring <span style="color:#1f77b4;">KPI reports</span> on tutorial impact, tutor performance, costs, and demographics.</li>
-        <li>Designed live dashboards using <em>Microsoft Power BI</em> and <em>Excel</em>.</li>
-        <li>Developed predictive models for tutorial attendance using <em>Machine Learning & AI</em> tools.</li>
-        <li>Applied <span style="color:#1f77b4;">statistical analysis</span>: T-Test, ANOVA, Cohen’s D, Post-Hoc, Linear Regression.</li>
-        <li>Presented at <em>Siyaphumelela Conference (June 2024)</em>: Evaluating tutor training effectiveness.</li>
-    </ul>
+        <ul style="padding-left: 20px; margin-top: 10px; color: #333; font-size: 15px;">
+            {bullet_html}
+        </ul>
 
-    <div class="skills-line">
-        Skills: Power BI, Excel, Python, R, HTML, CSS, SPSS, NVIVO, Communication, Automation
+        <div style="margin-top: 15px; font-weight: 500; color: #ff7a00; font-size: 14px;">
+            Skills: {skills}
+        </div>
     </div>
-</div>
-""", unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
 
 
 c1, c2, c3, c4 = st.columns([31, 20, 35, 15])
