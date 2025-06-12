@@ -143,7 +143,7 @@ skills_4 = ":orange[Skills]: Academic Tutoring, Assessment & Feedback, Peer Ment
 display_work_card(
     title="Teaching Assistant: UFSS1504/22",
     organization="Centre for Teaching and Learning (CTL), University of the Free State (UFS)",
-    date_range="18/01/01 - 22/08/31",
+    date_range="21/07/01 - 22/08/31",
     details_markdown=TA,
     skills_markdown=skills_4
 )
