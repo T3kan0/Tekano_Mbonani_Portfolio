@@ -159,7 +159,7 @@ st.markdown("""
     <style>
     .typewriter h1 {
         overflow: hidden;
-        border-right: .15em solid orange;
+        border-right: .15em solid #b3cde0;
         white-space: nowrap;
         margin: 0 auto;
         letter-spacing: .12em;
