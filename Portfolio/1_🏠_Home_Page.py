@@ -174,47 +174,41 @@ st.markdown("""
 
 
 st.markdown("""
-<h3 style="color: dimgrey;" align="center">Languages and Tools:</h3>
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
-    <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="60" height="60"/>
-    </a>
-    <a href="https://d3js.org/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg" alt="d3js" width="60" height="60"/>
-    </a>
-    <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">
-        <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="60" height="60"/>
-    </a>
-    <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="60" height="60"/>
-    </a>
-    <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="60" height="60"/>
-    </a>
-    <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="60" height="60"/>
-    </a>
-    <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="60" height="60"/>
-    </a>
-    <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="60" height="60"/>
-    </a>
-    <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer">
-        <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="60" height="60"/>
-    </a>
-    <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="60" height="60"/>
-    </a>
-    <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="60" height="60"/>
-    </a>
-    <a href="https://www.python.org" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="60" height="60"/>
-    </a>
-    <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="60" height="60"/>
-    </a>
+<h3 style="color: dimgrey; text-align: center; margin-bottom: 20px;">🧰 Languages & Tools</h3>
+
+<style>
+.tech-icons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 10px;
+}
+.tech-icon {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.2));
+}
+.tech-icon:hover {
+    transform: scale(1.15);
+    opacity: 0.9;
+}
+</style>
+
+<div class="tech-icons-container">
+    <a href="https://www.gnu.org/software/bash/" target="_blank"><img class="tech-icon" src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="60" height="60"/></a>
+    <a href="https://d3js.org/" target="_blank"><img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg" alt="d3js" width="60" height="60"/></a>
+    <a href="https://www.djangoproject.com/" target="_blank"><img class="tech-icon" src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="60" height="60"/></a>
+    <a href="https://dotnet.microsoft.com/" target="_blank"><img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="60" height="60"/></a>
+    <a href="https://flask.palletsprojects.com/" target="_blank"><img class="tech-icon" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="60" height="60"/></a>
+    <a href="https://git-scm.com/" target="_blank"><img class="tech-icon" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="60" height="60"/></a>
+    <a href="https://www.linux.org/" target="_blank"><img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="60" height="60"/></a>
+    <a href="https://www.mathworks.com/" target="_blank"><img class="tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="60" height="60"/></a>
+    <a href="https://www.microsoft.com/en-us/sql-server" target="_blank"><img class="tech-icon" src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="60" height="60"/></a>
+    <a href="https://www.mysql.com/" target="_blank"><img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="60" height="60"/></a>
+    <a href="https://www.postgresql.org" target="_blank"><img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="60" height="60"/></a>
+    <a href="https://www.python.org" target="_blank"><img class="tech-icon" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="60" height="60"/></a>
+    <a href="https://www.sqlite.org/" target="_blank"><img class="tech-icon" src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="60" height="60"/></a>
 </div>
 """, unsafe_allow_html=True)
+
 
