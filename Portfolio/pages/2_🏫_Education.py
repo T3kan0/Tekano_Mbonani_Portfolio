@@ -125,7 +125,7 @@ st.markdown("""
             <li><b>GPA:</b> 3.0/70.44%</li>
             <li><b>Observations at the Boyden Observatory:</b> The Watcher and 1.5m Telescopes</li>
         </ul>
-        <div><b>Skills:</b> Astrophysics, Research, Python & IRAF (Programmming Languages), Data Analysis</div>
+        <div><b><strong style="color:#FFA500;">Skills:</strong></b> Astrophysics, Research, Python & IRAF (Programmming Languages), Data Analysis</div>
     </div>
 """, unsafe_allow_html=True)
 
@@ -166,6 +166,6 @@ st.markdown("""
             <li><b>University of the Free State:</b> 8 Graduate Attributes</li>
             <li><b>GPA:</b> 2.0/68.35%</li>
         </ul>
-        <div><b>Skills:</b> Physics, Astronomy, Calculus, Differential Equations, IRAF (Programming Language)</div>
+        <div><b><strong style="color:#FFA500;">Skills:</strong></b> Physics, Astronomy, Calculus, Differential Equations, IRAF (Programming Language)</div>
     </div>
 """, unsafe_allow_html=True)
