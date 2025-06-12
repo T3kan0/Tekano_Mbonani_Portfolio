@@ -164,9 +164,9 @@ st.markdown("""
         margin: 0 auto;
         letter-spacing: .12em;
         animation: 
-            typing 2.5s steps(40, end),
+            typing 2.5s steps(30, end),
             blink-caret .75s step-end infinite;
-        color: #444;
+        color: #b3cde0;
         font-size: 38px;
         text-align: center;
         width: fit-content;
