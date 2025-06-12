@@ -72,7 +72,7 @@ def display_work_card(title, organization, date_range, details_markdown, skills_
 # Job details and skills
 details = '''
 - ✔ Leading a team of at least seven interns and research assistants in :blue[A_STEP] to ensure the building of effective survey forms, and that the tutorial data is collected, processed and stored in the UFS database management systems in place.  
-- ✔ Developed :blue[5+ Web Applications] that automated and standardized data processes, thus boosted the productivity by several factors.  
+- ✔ Developed :blue[+5 Web Applications] that automated and standardized data processes, thus boosted the productivity by several factors.  
 - ✔ Responsible for managing database management systems and tracking the :blue[data] collected weekly.  
 - ✔ Responsible for writing tutorial :blue[KPI] measuring reports, such as: _tutorial impact reports on student success, tutor costs, tutor training stats, student demographic_, etc.  
 - ✔ Built effective dashboards for the visualization of the data using tools such as :blue[_Microsoft Power BI & Excel_].  
