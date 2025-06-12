@@ -166,7 +166,7 @@ st.markdown("""
         animation: 
             typing 2.5s steps(30, end),
             blink-caret .75s step-end infinite;
-        color: #b3cde0;
+        color: #011f4b;
         font-size: 38px;
         text-align: center;
         width: fit-content;
@@ -179,7 +179,7 @@ st.markdown("""
 
     @keyframes blink-caret {
         from, to { border-color: transparent }
-        50% { border-color: blue; }
+        50% { border-color: #b3cde0; }
     }
     </style>
 
