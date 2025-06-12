@@ -158,17 +158,49 @@ st.markdown(f"""
 
 st.markdown("""
     <style>
-    .center {
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(15px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .about-header {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100px;
+        height: 120px;
+        animation: fadeInUp 1s ease-out;
+    }
+
+    .about-header h1 {
+        font-size: 42px;
+        color: #444;
+        letter-spacing: 1.2px;
+        position: relative;
+    }
+
+    .about-header h1::after {
+        content: "";
+        position: absolute;
+        width: 60%;
+        height: 4px;
+        background: linear-gradient(to right, #6c63ff, #ff4b4b);
+        left: 20%;
+        bottom: -10px;
+        border-radius: 5px;
     }
     </style>
-    <div class="center">
-        <h1 style="color: dimgrey;">About Me</h1>
+
+    <div class="about-header">
+        <h1>About Me</h1>
     </div>
 """, unsafe_allow_html=True)
+
 
 
 st.info('''
