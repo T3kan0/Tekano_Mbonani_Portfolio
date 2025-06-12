@@ -165,11 +165,11 @@ st.markdown(f"""
     font-size: 38px;
     text-align: center;
     width: fit-content;    
-    }
-    @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
-    }
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
 
     @keyframes blink-caret {
         from, to { border-color: transparent }
