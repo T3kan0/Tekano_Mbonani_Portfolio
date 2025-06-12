@@ -81,7 +81,7 @@ details = '''
 -  Presented research findings at the :blue[Siyaphumelela Conference (June 2024, July 2025)], focusing on: :blue[_Evaluating the implementation and effectiveness of skills, principles, and strategies in tutor training._]
 '''
 
-skills = ":orange[Skills]: MicroSoft Power BI & Excel, Python & R (programming languages), HTML, CSS, SPSS, NVIVO, Written & Oral Communication, Automation"
+skills = ":orange[Skills]: Microsoft Power BI, Excel, Python, R, HTML, CSS, SPSS, NVivo, Data Automation, Technical Writing, and Oral Communication"
 
 # Display the card
 display_work_card(
