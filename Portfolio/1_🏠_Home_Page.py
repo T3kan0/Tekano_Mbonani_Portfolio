@@ -197,7 +197,7 @@ st.markdown("""
     </style>
 
     <div class="about-header">
-        <h1>About Me</h1>
+        <h1>Profile</h1>
     </div>
 """, unsafe_allow_html=True)
 
