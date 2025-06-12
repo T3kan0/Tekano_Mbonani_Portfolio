@@ -129,11 +129,11 @@ display_work_card(
 
 # Job details and skills
 TA = '''
-- Tutored, instructed and facillitated tutorials in the first entry level modules :blue[UFSS1504] & :blue[UFSS1522].
-- :blue[Peer mentor] to students enrolled in UFSS1504 & UFSS1522 modules.
-- Graded asssessements with feedback to :blue[students]. 
+- Facilitated tutorials and academic support for first-year modules: :blue[UFSS1504] and :blue[UFSS1522].  
+- Served as a :blue[peer mentor], providing guidance and support to students enrolled in the modules.  
+- Assessed student submissions and delivered constructive :blue[feedback] to support academic development.  
 '''
-skills_4 = ":orange[Skills]: Tutoring, Assessment Grading, Oral & Written Communication, Peer Mentoring, Blackboard Collaborate (Online Tutoring)"
+skills_4 = ":orange[Skills]: Academic Tutoring, Assessment & Feedback, Peer Mentoring, Oral & Written Communication, Blackboard Collaborate"
 
 # Display the card
 display_work_card(
