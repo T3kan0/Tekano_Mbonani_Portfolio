@@ -150,10 +150,24 @@ display_work_card(
     skills_markdown=skills_4
 )
 
+# Job details and skills
+PA = '''
+- Compiling and presenting educational and intriguing programs or shows based on :blue[space science] & :blue[astronomy] topics to the general public.
+- Presented shows in :blue[Sotho] & :blue[English].
+- Operated the complex :blue[planterium] equipment. 
+'''
+skills_5 = ":orange[Skills]: Oral Communication, Astronomy, Computer Literacy, Story Telling"
 
-st.markdown("""
-    <hr style="border: 2px solid dimgrey;">
-""", unsafe_allow_html=True)
+# Display the card
+display_work_card(
+    title="Presenter & Narrator",
+    organization="The Navil Hill Planetarium, University of the Free State (UFS)",
+    date_range="17/01/01 - 21/10/31",
+    details_markdown=PA,
+    skills_markdown=skills_5
+)
+
+
 
 c21, c22, c23, c24 = st.columns([31, 20, 35, 15])
 with c21:
