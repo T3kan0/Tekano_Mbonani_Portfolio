@@ -155,51 +155,37 @@ st.markdown(f"""
     </div>
 """, unsafe_allow_html=True)
 
-
 st.markdown("""
     <style>
-    @keyframes fadeInUp {
-        from {
-            opacity: 0;
-            transform: translateY(15px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
+    .typewriter h1 {
+        overflow: hidden;
+        border-right: .15em solid orange;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .12em;
+        animation: 
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite;
+        color: #444;
+        font-size: 38px;
+        text-align: center;
+        width: fit-content;
     }
 
-    .about-header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 120px;
-        animation: fadeInUp 1s ease-out;
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
     }
 
-    .about-header h1 {
-        font-size: 42px;
-        color: #011f4b;
-        letter-spacing: 1.2px;
-        position: relative;
-    }
-
-    .about-header h1::after {
-        content: "";
-        position: absolute;
-        width: 60%;
-        height: 4px;
-        background: linear-gradient(to right, #6c63ff, #ff4b4b);
-        left: 0%;
-        bottom: -10px;
-        border-radius: 6px;
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
     }
     </style>
 
-    <div class="about-header">
-        <h1>Bio</h1>
-    </div>
+    <div class="typewriter"><h1>Hello, I'm Tekano</h1></div>
 """, unsafe_allow_html=True)
+
 
 
 
