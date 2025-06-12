@@ -20,7 +20,7 @@ st.set_page_config(
 #with open('config.css') as f:
     #st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 
-
+#### Header
 st.markdown("""
     <style>
     .header-container {
@@ -45,8 +45,71 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-    <hr style="border: 2px solid dimgrey;">
+<style>
+.work-card {
+    border: 1px solid #ddd;
+    border-left: 5px solid #011f4b;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    background-color: #f9f9f9;
+}
+.work-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+.work-title {
+    font-size: 20px;
+    color: #011f4b;
+    font-weight: bold;
+}
+.work-meta {
+    font-size: 14px;
+    color: dimgrey;
+}
+ul.work-bullets {
+    padding-left: 20px;
+}
+ul.work-bullets li {
+    margin-bottom: 8px;
+}
+.skills-line {
+    margin-top: 15px;
+    font-weight: 500;
+    color: #ff7a00;
+}
+</style>
+
+<div class="work-card">
+    <div class="work-header">
+        <div>
+            <div class="work-title">Officer: Junior Data Analyst</div>
+            <div class="work-meta">Centre for Teaching and Learning (CTL), UFS</div>
+        </div>
+        <div class="work-meta">May 2021 – Present</div>
+    </div>
+    
+    <ul class="work-bullets">
+        <li>Leading a team of 7+ interns in <span style="color:#1f77b4;">A_STEP</span> for data collection and database management.</li>
+        <li>Built <span style="color:#1f77b4;">5+ web applications</span> to automate workflows and boost productivity.</li>
+        <li>Weekly oversight and management of collected tutorial data in internal DB systems.</li>
+        <li>Authoring <span style="color:#1f77b4;">KPI reports</span> on tutorial impact, tutor performance, costs, demographics, etc.</li>
+        <li>Designed live dashboards using <em>Microsoft Power BI</em> and <em>Excel</em>.</li>
+        <li>Developed predictive models on tutorial attendance using <em>Machine Learning & AI</em>.</li>
+        <li>Applied rigorous <span style="color:#1f77b4;">statistical tests</span>: T-Test, ANOVA, Cohen’s D, Post-Hoc, etc.</li>
+        <li>Presented research at <em>Siyaphumelela Conference (June 2024)</em>: Evaluating the effectiveness of tutor training implementation.</li>
+    </ul>
+
+    <div class="skills-line">
+        Skills: Power BI, Excel, Python, R, HTML, CSS, SPSS, NVIVO, Communication, Automation
+    </div>
+</div>
 """, unsafe_allow_html=True)
+
 
 c1, c2, c3, c4 = st.columns([31, 20, 35, 15])
 with c1:
