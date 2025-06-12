@@ -127,6 +127,23 @@ display_work_card(
     skills_markdown=skills_3
 )
 
+# Job details and skills
+TA = '''
+- Tutored, instructed and facillitated tutorials in the first entry level modules :blue[UFSS1504] & :blue[UFSS1522].
+- :blue[Peer mentor] to students enrolled in UFSS1504 & UFSS1522 modules.
+- Graded asssessements with feedback to :blue[students]. 
+'''
+skills_4 = ":orange[Skills]: Tutoring, Assessment Grading, Oral & Written Communication, Peer Mentoring, Blackboard Collaborate (Online Tutoring)"
+
+# Display the card
+display_work_card(
+    title="Teaching Assistant: UFSS1504/22",
+    organization="Centre for Teaching and Learning (CTL), University of the Free State (UFS)",
+    date_range="21/07/01 - 22/08/31",
+    details_markdown=TA,
+    skills_markdown=skills_4
+)
+
 c13, c14, c15, c16 = st.columns([31, 20, 35, 15])
 with c13:
     st.markdown("""
