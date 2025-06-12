@@ -92,14 +92,14 @@ display_work_card(
 
 # Job details and skills
 a_officer = '''
-- Part of a team with at least seven interns and research assistants in :blue[A_STEP] that built effective survey forms for the collection, processing and storage of the tutorial data in\
- the UFS database management systems.
-- Developed :blue[MARS]: The Web Application that merges and processes large tutorial attendance register files collected on a weekly basis.
-- Created trackers for the tutorial and financial data collected on a weekly and/or monthly basis on the UFS :blue[Bloemfontein, Qwa-qwa and South] campuses.
-- Responsible for writing tutorial :blue[KPI] measuring reports, such as tutorial impact reports on student success, student demographics and more.
+- Collaborated with a team of seven interns and research assistants in :blue[A_STEP] to design effective survey instruments and ensure the accurate collection, processing, and storage of tutorial data within UFS database systems.  
+- Developed :blue[MARS], a web-based application for merging and processing large-scale tutorial attendance registers collected weekly.  
+- Built data trackers to monitor tutorial and financial metrics across UFS :blue[Bloemfontein, QwaQwa, and South] campuses on a weekly and monthly basis.  
+- Authored tutorial :blue[KPI] reports, including analyses of student success, demographic distributions, and program performance indicators.  
 '''
 
-skills_2 = ":orange[Skills]: Excel, Python & R (programming languages), SPSS, Data Analysis, Written Communication"
+
+skills_2 = ":orange[Skills]: Excel, Python, R, SPSS, Data Analysis, Technical Writing"
 
 # Display the card
 display_work_card(
