@@ -160,7 +160,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<div style="background-color: #f0f2f6; padding: 20px; border-radius: 10px; border-left: 5px solid #b3cde0;">
+<div style="background-color: #f0f2f6; padding: 20px; border-radius: 10px; border-left: 5px solid #6497b1;">
     <h4 style="margin-top: 0;">🌟 <strong>Professional Snapshot</strong></h4>
     <ul style="line-height: 1.8; font-size: 16px; color: #333;">
         <li><strong style="color:#FFA500;">Data Analyst</strong>, <strong style="color:#FF4B4B;">Web App Developer</strong>, and <strong style="color:#2ECC71;">Researcher</strong> with a passion for extracting insights through predictive modeling and statistical methods.</li>
