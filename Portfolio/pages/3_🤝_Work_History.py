@@ -115,7 +115,7 @@ RA = '''
 - DoP (18/01/01 - 21/06/31)
 - Facilitated tutorials and laboratory assistance for first-year modules: :blue[PHYS1514] and :blue[PHYA1554].    
 - Assessed student submissions and delivered constructive :blue[feedback] to support academic development.
-CTL (21/09/01 - 22/08/31)
+- CTL (22/09/01 - 23/12/31)
 - Contributed to a team of interns and research assistants to design effective survey instruments for tutorial data collection.  
 - Consolidated and processed weekly tutorial attendance registers, ensuring accurate storage in the UFS :blue[database management systems].  
 - Delivered weekly :blue[statistical summaries] of tutorial data to Teaching and Learning Coordinators (TLCs) across the _Bloemfontein_ and _QwaQwa_ campuses.  
