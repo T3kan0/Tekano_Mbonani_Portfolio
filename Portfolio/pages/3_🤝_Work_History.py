@@ -114,13 +114,15 @@ display_work_card(
 RA = '''
 - DoP (18/01/01 - 21/06/31)
 - Facilitated tutorials and laboratory assistance for first-year modules: :blue[PHYS1514] and :blue[PHYA1554].    
-- Assessed student submissions and delivered constructive :blue[feedback] to support academic development.
+- Conducted :blue[research] in Astrophysics topics that included multi-wavelength studies of :blue[Active Galactic Nucleus (AGNs)].
+- Collected observational and archival data using telescopes at the :blue[Boyden observatory (Optical)] & :blue[_FERMI_ - Large Area Telescope (Gamma-ray)].
+- Developed :blue[data analysis] pipelines
 - CTL (22/09/01 - 23/12/31)
 - Contributed to a team of interns and research assistants to design effective survey instruments for tutorial data collection.  
 - Consolidated and processed weekly tutorial attendance registers, ensuring accurate storage in the UFS :blue[database management systems].  
 - Delivered weekly :blue[statistical summaries] of tutorial data to Teaching and Learning Coordinators (TLCs) across the _Bloemfontein_ and _QwaQwa_ campuses.  
 '''
-skills_3 = ":orange[Skills]: Academic Tutoring, Assessment & Feedback, Excel, Python, Data Collection & Processing, Survey Design, Technical Writing"
+skills_3 = ":orange[Skills]: Research (astrophysics), Academic Tutoring, Excel, Python, Data Collection & Processing, Survey Design, Technical Writing"
 
 # Display the card
 display_work_card(
@@ -149,74 +151,6 @@ display_work_card(
 )
 
 
-
-c17, c18, c19, c20 = st.columns([31, 20, 35, 15])
-
-with c17:
-    st.markdown("""
-        <style>
-        .left {
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            height: 100px;
-        }
-        </style>
-        <div class="left">
-            <h5 style="color: dimgrey;">Research Assistant: Physics</h5>
-        </div>
-    """, unsafe_allow_html=True)
-
-with c18:
-    st.markdown("""
-        <style>
-        .left {
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            height: 100px;
-        }
-        </style>
-        <div class="left">
-            <h5 style="color: dimgrey;">The Department of Physics/Fisika (DoP)</h5>
-        </div>
-    """, unsafe_allow_html=True)
-with c19:
-    st.markdown("""
-        <style>
-        .left {
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            height: 100px;
-        }
-        </style>
-        <div class="left">
-            <h5 style="color: dimgrey;">University of the Free State (UFS)</h5>
-        </div>
-    """, unsafe_allow_html=True)
-with c20:
-    st.markdown("""
-        <style>
-        .left {
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            height: 100px;
-        }
-        </style>
-        <div class="left">
-            <h5 style="color: dimgrey;">18/01/01 - 21/06/31 </h5>
-        </div>
-    """, unsafe_allow_html=True)
-
-st.write('''
-- ✔ Conducted :blue[research] in Astrophysics topics that included multi-wavelength studies of :blue[Active Galactic Nucleus (AGNs)].
-- ✔ Collected observational and archival data using telescopes at the :blue[Boyden observatory (Optical)] & :blue[_FERMI_ - Large Area Telescope (Gamma-ray)].
-- ✔ Developed :blue[data analysis] pipelines.
-
-:orange[Skills]: Research (astrophysics), Data Analysis, Python & IRAF (programming languages), Problem Solving, Critical Thinking
-''')
 st.markdown("""
     <hr style="border: 2px solid dimgrey;">
 """, unsafe_allow_html=True)
