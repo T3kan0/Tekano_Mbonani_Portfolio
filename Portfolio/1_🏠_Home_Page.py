@@ -191,14 +191,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-st.info('''
-- ✅ Experienced :orange[Data Analyst], :red[Web-app Developer] and :green[Researcher] in data-oriented environment, with passion for delivering insights based on predictive modeling and other statistical methods. 
-- ✅ Aspiring Astrophysicist currently with an MSc in Astrophysics.
-- ✅ Tutor in programming languages :red[(Python and R)], Mathematics and Physics :red[(Online and Face-to-Face)].
-- ✅ Strong verbal and written communication skills.
-- ✅ Data Consultant.
-''')
-
 st.markdown("""
     <hr style="border: 2px solid dimgrey;">
 """, unsafe_allow_html=True)
