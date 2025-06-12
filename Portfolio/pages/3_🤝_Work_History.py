@@ -71,9 +71,9 @@ def display_work_card(title, organization, date_range, details_markdown, skills_
 
 # Job details and skills
 details = '''
--  Supervised a team of seven interns and research assistants in :blue[A_STEP], ensuring the effective design of survey instruments and the systematic collection, processing, and secure storage of tutorial data within UFS database systems.  
--  Engineered :blue[5+ web-based applications] to automate and standardize data workflows, significantly increasing operational efficiency.  
--  Oversaw database management systems and maintained weekly tracking of critical tutorial program :blue[data].  
+-  Supervises a team of seven interns and research assistants, ensuring the effective design of survey instruments and the systematic collection, processing, and secure storage of tutorial data within UFS database systems.  
+-  Engineered :blue[+5 web-based applications] to automate and standardize data workflows, significantly increasing operational efficiency.  
+-  Oversaw database management systems and maintained weekly tracking of critical tutorial program data.  
 -  Authored tutorial :blue[KPI] reports, including: _impact analyses on student performance, tutor cost assessments, training participation metrics, and demographic breakdowns_.  
 -  Designed dynamic dashboards for data visualization using :blue[_Microsoft Power BI_], :blue[_Excel_], and related tools to support strategic decision-making.  
 -  Built predictive models using :blue[_Machine Learning and AI_] techniques to analyze tutorial attendance patterns and forecast student engagement.  
