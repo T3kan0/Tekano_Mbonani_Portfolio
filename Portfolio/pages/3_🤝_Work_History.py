@@ -92,9 +92,9 @@ display_work_card(
 
 # Job details and skills
 a_officer = '''
-- Collaborated with a team of seven interns and research assistants in :blue[A_STEP] to design effective survey instruments and ensure the accurate collection, processing, and storage of tutorial data within UFS database systems.  
+- Collaborated with a team of seven interns and research assistants to design effective survey instruments and ensure the accurate collection, processing, and storage of tutorial data within UFS database systems.  
 - Developed :blue[MARS], a web-based application for merging and processing large-scale tutorial attendance registers collected weekly.  
-- Built data trackers to monitor tutorial and financial metrics across UFS :blue[Bloemfontein, QwaQwa, and South] campuses on a weekly and monthly basis.  
+- Built data trackers to monitor tutorial and financial metrics across UFS _Bloemfontein_, _QwaQwa_, and _South_ campuses on a weekly and monthly basis.  
 - Authored tutorial :blue[KPI] reports, including analyses of student success, demographic distributions, and program performance indicators.  
 '''
 
