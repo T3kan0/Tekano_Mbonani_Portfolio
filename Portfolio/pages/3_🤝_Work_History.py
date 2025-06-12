@@ -22,29 +22,6 @@ st.set_page_config(
 
 #### Header
 st.markdown("""
-    <style>
-    .header-container {
-        background: linear-gradient(to right, #dbe9f4, #ffffff);
-        padding: 2rem;
-        border-radius: 10px;
-        box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
-        margin-bottom: 1rem;
-    }
-    .header-title {
-        text-align: center;
-        color: #011f4b;
-        font-size: 3rem;
-        font-weight: bold;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-    }
-    </style>
-    <div class="header-container">
-        <div class="header-title">💼 Work History</div>
-    </div>
-""", unsafe_allow_html=True)
-
-st.markdown("""
 <style>
 .work-card {
     border: 1px solid #ddd;
@@ -53,7 +30,7 @@ st.markdown("""
     border-radius: 10px;
     margin-bottom: 30px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    background-color: #f9f9f9;
+    background-color: #fafafa;
 }
 .work-header {
     display: flex;
@@ -69,18 +46,22 @@ st.markdown("""
 }
 .work-meta {
     font-size: 14px;
-    color: dimgrey;
+    color: #444;
 }
 ul.work-bullets {
     padding-left: 20px;
+    margin-top: 10px;
 }
 ul.work-bullets li {
     margin-bottom: 8px;
+    font-size: 15px;
+    color: #333;
 }
 .skills-line {
     margin-top: 15px;
     font-weight: 500;
     color: #ff7a00;
+    font-size: 14px;
 }
 </style>
 
@@ -88,20 +69,20 @@ ul.work-bullets li {
     <div class="work-header">
         <div>
             <div class="work-title">Officer: Junior Data Analyst</div>
-            <div class="work-meta">Centre for Teaching and Learning (CTL), UFS</div>
+            <div class="work-meta">Centre for Teaching and Learning (CTL), University of the Free State (UFS)</div>
         </div>
         <div class="work-meta">May 2021 – Present</div>
     </div>
-    
+
     <ul class="work-bullets">
         <li>Leading a team of 7+ interns in <span style="color:#1f77b4;">A_STEP</span> for data collection and database management.</li>
         <li>Built <span style="color:#1f77b4;">5+ web applications</span> to automate workflows and boost productivity.</li>
-        <li>Weekly oversight and management of collected tutorial data in internal DB systems.</li>
-        <li>Authoring <span style="color:#1f77b4;">KPI reports</span> on tutorial impact, tutor performance, costs, demographics, etc.</li>
+        <li>Managed weekly tutorial data in UFS internal DB systems.</li>
+        <li>Authoring <span style="color:#1f77b4;">KPI reports</span> on tutorial impact, tutor performance, costs, and demographics.</li>
         <li>Designed live dashboards using <em>Microsoft Power BI</em> and <em>Excel</em>.</li>
-        <li>Developed predictive models on tutorial attendance using <em>Machine Learning & AI</em>.</li>
-        <li>Applied rigorous <span style="color:#1f77b4;">statistical tests</span>: T-Test, ANOVA, Cohen’s D, Post-Hoc, etc.</li>
-        <li>Presented research at <em>Siyaphumelela Conference (June 2024)</em>: Evaluating the effectiveness of tutor training implementation.</li>
+        <li>Developed predictive models for tutorial attendance using <em>Machine Learning & AI</em> tools.</li>
+        <li>Applied <span style="color:#1f77b4;">statistical analysis</span>: T-Test, ANOVA, Cohen’s D, Post-Hoc, Linear Regression.</li>
+        <li>Presented at <em>Siyaphumelela Conference (June 2024)</em>: Evaluating tutor training effectiveness.</li>
     </ul>
 
     <div class="skills-line">
