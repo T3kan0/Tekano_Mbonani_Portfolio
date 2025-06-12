@@ -174,7 +174,7 @@ st.markdown("""
 
 
 st.markdown("""
-<h3 style="color: dimgrey; text-align: center; margin-bottom: 20px;">🧰 Languages & Tools</h3>
+#<h3 style="color: dimgrey; text-align: center; margin-bottom: 20px;">🧰 Languages & Tools</h3>
 
 <style>
 .tech-icons-container {
