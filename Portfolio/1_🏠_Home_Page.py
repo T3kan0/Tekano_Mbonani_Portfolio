@@ -155,27 +155,6 @@ st.markdown(f"""
     </div>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-    <style>
-    .icon-header {
-        text-align: center;
-        font-size: 36px;
-        color: #011f4b;
-        font-weight: bold;
-        margin-top: 30px;
-    }
-
-    .icon-header span {
-        display: inline-block;
-        margin-right: 10px;
-    }
-    </style>
-
-    <div class="icon-header">
-        Professional Summary
-    </div>
-""", unsafe_allow_html=True)
-
 
 st.markdown("""
 <div style="background-color: #f0f2f6; padding: 20px; border-radius: 10px; border-left: 5px solid #378cfc;">
