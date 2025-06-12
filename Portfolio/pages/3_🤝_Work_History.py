@@ -48,10 +48,6 @@ st.markdown("""
 
 #### Header
 def display_work_card(title, organization, date_range, bullet_points, skills):
-    bullet_html = ''.join(
-        f'<li>{point}</li>' for point in bullet_points
-    )
-    
     st.markdown(f"""
     <div style="border: 1px solid #ddd; border-left: 5px solid #011f4b; padding: 20px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); background-color: #fafafa;">
         <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
@@ -61,16 +57,20 @@ def display_work_card(title, organization, date_range, bullet_points, skills):
             </div>
             <div style="font-size: 14px; color: #444;">{date_range}</div>
         </div>
+    """, unsafe_allow_html=True)
 
-        <ul style="padding-left: 20px; margin-top: 10px; color: #333; font-size: 15px;">
-            {bullet_html}
-        </ul>
+    st.markdown('<ul style="padding-left: 20px; margin-top: 10px; color: #333; font-size: 15px;">', unsafe_allow_html=True)
+    for point in bullet_points:
+        st.markdown(f'<li>{point}</li>', unsafe_allow_html=True)
+    st.markdown('</ul>', unsafe_allow_html=True)
 
+    st.markdown(f"""
         <div style="margin-top: 15px; font-weight: 500; color: #ff7a00; font-size: 14px;">
             Skills: {skills}
         </div>
     </div>
     """, unsafe_allow_html=True)
+
 
 display_work_card(
     title="Officer: Junior Data Analyst",
