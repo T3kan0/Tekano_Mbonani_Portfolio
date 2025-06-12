@@ -164,7 +164,7 @@ st.markdown("""
         margin: 0 auto;
         letter-spacing: .12em;
         animation: 
-            typing 3.5s steps(40, end),
+            typing 2.5s steps(40, end),
             blink-caret .75s step-end infinite;
         color: #444;
         font-size: 38px;
@@ -179,11 +179,11 @@ st.markdown("""
 
     @keyframes blink-caret {
         from, to { border-color: transparent }
-        50% { border-color: orange; }
+        50% { border-color: blue; }
     }
     </style>
 
-    <div class="typewriter"><h1>Proffessional Summary</h1></div>
+    <div class="typewriter"><h1>Professional Summary</h1></div>
 """, unsafe_allow_html=True)
 
 
