@@ -160,7 +160,7 @@ st.markdown("""
     .icon-header {
         text-align: center;
         font-size: 36px;
-        color: #444;
+        color: #011f4b;
         font-weight: bold;
         margin-top: 30px;
     }
