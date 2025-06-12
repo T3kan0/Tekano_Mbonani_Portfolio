@@ -156,9 +156,9 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 
-st.markdown("""
-    <hr style="border: 2px solid dimgrey;">
-""", unsafe_allow_html=True)
+#st.markdown("""
+#    <hr style="border: 2px solid dimgrey;">
+#""", unsafe_allow_html=True)
 
 
 st.markdown("""
