@@ -190,7 +190,7 @@ st.markdown("""
         width: 60%;
         height: 4px;
         background: linear-gradient(to right, #6c63ff, #ff4b4b);
-        left: 20%;
+        left: 10%;
         bottom: -10px;
         border-radius: 5px;
     }
