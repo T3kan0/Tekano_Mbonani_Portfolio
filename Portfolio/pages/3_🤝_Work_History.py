@@ -110,6 +110,23 @@ display_work_card(
     skills_markdown=skills_2
 )
 
+# Job details and skills
+RA = '''
+- Part of a team of at least seven interns and other research assistants in :blue[A_STEP] that built effective survey forms for the collection of the tutorial data.
+- Merged and processed large tutorial attendance register files that were collected on a weekly basis, and stored the files in the UFS :blue[database management systems].
+- Reported weekly :blue[statistics] behind the tutorial data to Teaching and Learning Coordinators (TLCs) on the UFS Bloemfontein & Qwa-qwa campuses.
+'''
+skills_3 = ":orange[Skills]: Excel, Python (programming language), Data Collection & Processing, Building Surveys, Written Communication"
+
+# Display the card
+display_work_card(
+    title="Research Assistant: Data Analysis",
+    organization="Centre for Teaching and Learning (CTL), University of the Free State (UFS)",
+    date_range="22/09/01 - 23/12/31",
+    details_markdown=RA,
+    skills_markdown=skills_3
+)
+
 
 c9, c10, c11, c12 = st.columns([31, 20, 35, 15])
 with c9:
