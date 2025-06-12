@@ -47,25 +47,19 @@ st.markdown("""
 
 
 #### Header
-def work_card(title, org, dates, bullets, skills):
-    bullet_html = ''.join(f"<li>{b}</li>" for b in bullets)
+def display_work_card(title, organization, date_range, bullet_points, skills):
+    bullet_html = ''.join(
+        f'<li>{point}</li>' for point in bullet_points
+    )
+    
     st.markdown(f"""
-    <div style="
-        border: 1px solid #ddd;
-        border-left: 5px solid #011f4b;
-        padding: 20px;
-        border-radius: 10px;
-        margin-bottom: 30px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        background-color: #fafafa;
-    ">
-
+    <div style="border: 1px solid #ddd; border-left: 5px solid #011f4b; padding: 20px; border-radius: 10px; margin-bottom: 30px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); background-color: #fafafa;">
         <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; margin-bottom: 10px;">
             <div>
                 <div style="font-size: 20px; color: #011f4b; font-weight: bold;">{title}</div>
-                <div style="font-size: 14px; color: #444;">{org}</div>
+                <div style="font-size: 14px; color: #444;">{organization}</div>
             </div>
-            <div style="font-size: 14px; color: #444;">{dates}</div>
+            <div style="font-size: 14px; color: #444;">{date_range}</div>
         </div>
 
         <ul style="padding-left: 20px; margin-top: 10px; color: #333; font-size: 15px;">
@@ -78,11 +72,11 @@ def work_card(title, org, dates, bullets, skills):
     </div>
     """, unsafe_allow_html=True)
 
-work_card(
+display_work_card(
     title="Officer: Junior Data Analyst",
-    org="Centre for Teaching and Learning (CTL), University of the Free State (UFS)",
-    dates="May 2021 – Present",
-    bullets=[
+    organization="Centre for Teaching and Learning (CTL), University of the Free State (UFS)",
+    date_range="May 2021 – Present",
+    bullet_points=[
         'Leading a team of 7+ interns in <span style="color:#1f77b4;">A_STEP</span> for data collection and database management.',
         'Built <span style="color:#1f77b4;">5+ web applications</span> to automate workflows and boost productivity.',
         'Managed weekly tutorial data in UFS internal DB systems.',
@@ -94,7 +88,6 @@ work_card(
     ],
     skills="Power BI, Excel, Python, R, HTML, CSS, SPSS, NVIVO, Communication, Automation"
 )
-
 
 c1, c2, c3, c4 = st.columns([31, 20, 35, 15])
 with c1:
