@@ -172,12 +172,12 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-st.write('')
-st.write('')
+st.markdown("""
+    <hr style="border: 2px solid #b3cde0;">
+""", unsafe_allow_html=True)
 
 st.markdown("""
 
-<h4 style="color: #011f4b; text-align: center; margin-bottom: 20px;">Languages & Tools</h4>
 
 <style>
 .tech-icons-container {
