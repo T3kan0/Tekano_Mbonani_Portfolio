@@ -52,7 +52,7 @@ def display_work_card(title, organization, date_range, details_markdown, skills_
         # Job header styled like a card
         st.markdown(
             f"""
-            <div style="border-left: 6px solid #004080; background-color: #f9f9f9;
+            <div style="border-left: 4px solid #004080; background-color: #f9f9f9;
                         padding: 16px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.05);
                         margin-bottom: 8px;">
                 <h3 style="margin: 0; color: #004080;">{title}</h3>
