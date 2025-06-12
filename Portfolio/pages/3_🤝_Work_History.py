@@ -47,33 +47,39 @@ st.markdown("""
 
 
 #### Header
-def display_work_card(title, organization, date_range, bullet_points, skills):
+def display_work_card(title, organization, date_range, details_markdown, skills_markdown):
     with st.container():
-        st.markdown(f"### {title}")
-        st.markdown(f"_{organization}_  |  {date_range}")
+        # Job header styled like a card
+        st.markdown(
+            f"""
+            <div style="border-left: 6px solid #004080; background-color: #f9f9f9;
+                        padding: 16px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+                        margin-bottom: 8px;">
+                <h3 style="margin: 0; color: #004080;">{title}</h3>
+                <div style="display: flex; justify-content: space-between; font-size: 14px; color: #555;">
+                    <span><em>{organization}</em></span>
+                    <span>{date_range}</span>
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
         with st.expander("See job details"):
-            for point in bullet_points:
-                md_point = point.replace('<span style="color:#1f77b4;">', '**').replace('</span>', '**') \
-                                .replace('<em>', '_').replace('</em>', '_')
-                st.markdown(f"- {md_point}")
-            st.markdown(f"**Skills:** {skills}")
+            st.write(details_markdown)
+            st.markdown(skills_markdown)
+
 
 display_work_card(
-    title="Officer: Junior Data Analyst",
-    organization="Centre for Teaching and Learning (CTL), University of the Free State (UFS)",
-    date_range="May 2021 – Present",
+    title="Data Analyst",
+    organization="University of Cape Town",
+    date_range="Jan 2022 – Dec 2024",
     bullet_points=[
-        'Leading a team of 7+ interns in <span style="color:#1f77b4;">A_STEP</span> for data collection and database management.',
-        'Built <span style="color:#1f77b4;">5+ web applications</span> to automate workflows and boost productivity.',
-        'Managed weekly tutorial data in UFS internal DB systems.',
-        'Authoring <span style="color:#1f77b4;">KPI reports</span> on tutorial impact, tutor performance, costs, and demographics.',
-        'Designed live dashboards using <em>Microsoft Power BI</em> and <em>Excel</em>.',
-        'Developed predictive models for tutorial attendance using <em>Machine Learning & AI</em> tools.',
-        'Applied <span style="color:#1f77b4;">statistical analysis</span>: T-Test, ANOVA, Cohen’s D, Post-Hoc, Linear Regression.',
-        'Presented at <em>Siyaphumelela Conference (June 2024)</em>: Evaluating tutor training effectiveness.'
+        "Developed dashboards using **Power BI** and _Excel_.",
+        "Led the automation of data pipelines for tutorial tracking.",
+        "Collaborated with academic advisors to monitor student success."
     ],
-    skills="Power BI, Excel, Python, R, HTML, CSS, SPSS, NVIVO, Communication, Automation"
+    skills="Python, SQL, Power BI, Excel, Streamlit"
 )
 
 c1, c2, c3, c4 = st.columns([31, 20, 35, 15])
