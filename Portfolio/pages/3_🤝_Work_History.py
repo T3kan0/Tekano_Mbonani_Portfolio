@@ -71,14 +71,14 @@ def display_work_card(title, organization, date_range, details_markdown, skills_
 
 # Job details and skills
 details = '''
-- ✔ Leading a team of at least seven interns and research assistants in :blue[A_STEP] to ensure the building of effective survey forms, and that the tutorial data is collected, processed and stored in the UFS database management systems in place.  
-- ✔ Developed :blue[+5 Web Applications] that automated and standardized data processes, thus boosted the productivity by several factors.  
-- ✔ Responsible for managing database management systems and tracking the :blue[data] collected weekly.  
-- ✔ Responsible for writing tutorial :blue[KPI] measuring reports, such as: _tutorial impact reports on student success, tutor costs, tutor training stats, student demographic_, etc.  
-- ✔ Built effective dashboards for the visualization of the data using tools such as :blue[_Microsoft Power BI & Excel_].  
-- ✔ Developed predictive data models on the tutorial attendance data making use of :blue[_Machine Learning & AI_] tools.  
-- ✔ :blue[Hypothesis Testing]: _Two Sample T-Test, ANOVA Test, Cohen's D, Post-Hoc Analysis, Linear Regression & Correlation Studies_.  
-- ✔ Research: Presented at the :blue[Siyaphumelela Conference (2024 June)] so far. Topic: :blue[_Evaluating the effectiveness and implementation of skills, principles and strategies in tutor training._]
+-  Leading a team of at least seven interns and research assistants in :blue[A_STEP] to ensure the building of effective survey forms, and that the tutorial data is collected, processed and stored in the UFS database management systems in place.  
+-  Developed :blue[+5 Web Applications] that automated and standardized data processes, thus boosted the productivity by several factors.  
+-  Responsible for managing database management systems and tracking the :blue[data] collected weekly.  
+-  Responsible for writing tutorial :blue[KPI] measuring reports, such as: _tutorial impact reports on student success, tutor costs, tutor training stats, student demographic_, etc.  
+-  Built effective dashboards for the visualization of the data using tools such as :blue[_Microsoft Power BI & Excel_].  
+-  Developed predictive data models on the tutorial attendance data making use of :blue[_Machine Learning & AI_] tools.  
+-  :blue[Hypothesis Testing]: _Two Sample T-Test, ANOVA Test, Cohen's D, Post-Hoc Analysis, Linear Regression & Correlation Studies_.  
+-  Research: Presented at the :blue[Siyaphumelela Conference (2024 June)] so far. Topic: :blue[_Evaluating the effectiveness and implementation of skills, principles and strategies in tutor training._]
 '''
 
 skills = ":orange[Skills]: MicroSoft Power BI & Excel, Python & R (programming languages), HTML, CSS, SPSS, NVIVO, Written & Oral Communication, Automation"
