@@ -70,17 +70,27 @@ def display_work_card(title, organization, date_range, details_markdown, skills_
             st.markdown(skills_markdown)
 
 
+details = '''
+- ✔ Leading a team of at least seven interns and research assistants in :blue[A_STEP] to ensure the building of effective survey forms, and that the tutorial data is collected, processed and stored in the UFS database management systems in place.  
+- ✔ Developed :blue[5+ Web Applications] that automated and standardized data processes, thus boosted the productivity by several factors.  
+- ✔ Responsible for managing database management systems and tracking the :blue[data] collected weekly.  
+- ✔ Responsible for writing tutorial :blue[KPI] measuring reports, such as: _tutorial impact reports on student success, tutor costs, tutor training stats, student demographic_, etc.  
+- ✔ Built effective dashboards for the visualization of the data using tools such as :blue[_Microsoft Power BI & Excel_].  
+- ✔ Developed predictive data models on the tutorial attendance data making use of :blue[_Machine Learning & AI_] tools.  
+- ✔ :blue[Hypothesis Testing]: _Two Sample T-Test, ANOVA Test, Cohen's D, Post-Hoc Analysis, Linear Regression & Correlation Studies_.  
+- ✔ Research: Presented at the :blue[Siyaphumelela Conference (2024 June)] so far. Topic: :blue[_Evaluating the effectiveness and implementation of skills, principles and strategies in tutor training._]
+'''
+
+skills = ":orange[Skills]: MicroSoft Power BI & Excel, Python & R (programming languages), HTML, CSS, SPSS, NVIVO, Written & Oral Communication, Automation"
+
 display_work_card(
-    title="Data Analyst",
-    organization="University of Cape Town",
-    date_range="Jan 2022 – Dec 2024",
-    bullet_points=[
-        "Developed dashboards using **Power BI** and _Excel_.",
-        "Led the automation of data pipelines for tutorial tracking.",
-        "Collaborated with academic advisors to monitor student success."
-    ],
-    skills="Python, SQL, Power BI, Excel, Streamlit"
+    title="Research Data Analyst & Developer",
+    organization="University of the Free State",
+    date_range="Jan 2022 – Present",
+    details_markdown=details,
+    skills_markdown=skills
 )
+
 
 c1, c2, c3, c4 = st.columns([31, 20, 35, 15])
 with c1:
