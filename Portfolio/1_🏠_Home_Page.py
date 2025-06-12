@@ -192,7 +192,7 @@ st.markdown("""
         background: linear-gradient(to right, #6c63ff, #ff4b4b);
         left: 0%;
         bottom: -10px;
-        border-radius: 5px;
+        border-radius: 6px;
     }
     </style>
 
