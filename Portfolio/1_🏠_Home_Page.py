@@ -177,7 +177,7 @@ st.write('')
 
 st.markdown("""
 
-<h3 style="color: dimgrey; text-align: left; margin-bottom: 20px;">🧰 Languages & Tools</h3>
+<h4 style="color: #b3cde0; text-align: left; margin-bottom: 20px;">Languages & Tools</h4>
 
 <style>
 .tech-icons-container {
