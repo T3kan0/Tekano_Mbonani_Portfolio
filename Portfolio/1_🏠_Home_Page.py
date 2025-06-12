@@ -155,21 +155,28 @@ st.markdown(f"""
     </div>
 """, unsafe_allow_html=True)
 
-.typewriter h1 {
-    overflow: hidden;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .12em;
-    animation: typing 1.8s steps(20, end);
-    color: #011f4b;
-    font-size: 38px;
-    text-align: center;
-    width: fit-content;    
-}
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
+st.markdown("""
+    <style>
+    .typewriter h1 {
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .12em;
+        animation: typing 1.8s steps(20, end);
+        color: #011f4b;
+        font-size: 38px;
+        text-align: center;
+        width: fit-content;
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+    </style>
+    <div class="typewriter">
+        <h1>Tekano Mbonani, M.Sc.</h1>
+    </div>
+""", unsafe_allow_html=True)
 
     @keyframes blink-caret {
         from, to { border-color: transparent }
