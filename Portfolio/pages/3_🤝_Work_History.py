@@ -40,7 +40,7 @@ st.markdown("""
     }
     </style>
     <div class="header-container">
-        <div class="header-title">🎓 Work History</div>
+        <div class="header-title">💼 Work History</div>
     </div>
 """, unsafe_allow_html=True)
 
