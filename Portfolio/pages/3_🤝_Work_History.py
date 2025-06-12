@@ -112,11 +112,11 @@ display_work_card(
 
 # Job details and skills
 RA = '''
-- Part of a team of at least seven interns and other research assistants in :blue[A_STEP] that built effective survey forms for the collection of the tutorial data.
-- Merged and processed large tutorial attendance register files that were collected on a weekly basis, and stored the files in the UFS :blue[database management systems].
-- Reported weekly :blue[statistics] behind the tutorial data to Teaching and Learning Coordinators (TLCs) on the UFS Bloemfontein & Qwa-qwa campuses.
+- Contributed to a team of interns and research assistants in :blue[A_STEP] to design effective survey instruments for tutorial data collection.  
+- Consolidated and processed weekly tutorial attendance registers, ensuring accurate storage in UFS :blue[database management systems].  
+- Delivered weekly :blue[statistical summaries] of tutorial data to Teaching and Learning Coordinators (TLCs) across the Bloemfontein and QwaQwa campuses.  
 '''
-skills_3 = ":orange[Skills]: Excel, Python (programming language), Data Collection & Processing, Building Surveys, Written Communication"
+skills_3 = ":orange[Skills]: Excel, Python, Data Collection & Processing, Survey Design, Technical Writing"
 
 # Display the card
 display_work_card(
