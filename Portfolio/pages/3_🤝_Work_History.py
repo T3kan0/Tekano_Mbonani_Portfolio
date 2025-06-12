@@ -120,7 +120,7 @@ RA = '''
 - Consolidated and processed weekly tutorial attendance registers, ensuring accurate storage in the UFS :blue[database management systems].  
 - Delivered weekly :blue[statistical summaries] of tutorial data to Teaching and Learning Coordinators (TLCs) across the _Bloemfontein_ and _QwaQwa_ campuses.  
 '''
-skills_3 = ":orange[Skills]: Excel, Python, Data Collection & Processing, Survey Design, Technical Writing"
+skills_3 = ":orange[Skills]: Academic Tutoring, Assessment & Feedback, Excel, Python, Data Collection & Processing, Survey Design, Technical Writing"
 
 # Display the card
 display_work_card(
