@@ -122,7 +122,7 @@ st.markdown("""
         <div class="edu-subtitle">University of the Free State</div>
         <ul>
             <li><b>Research Topics:</b> Optical, X-ray & Gamma-ray Photometry and Spectroscopy</li>
-            <li><b>GPA:</b> 3.0/70.44%</li>
+            <li><b>GPA:</b><strong style="color:#011f4b;">3.0/70.44%</strong></li>
             <li><b>Observations at the Boyden Observatory:</b> The Watcher and 1.5m Telescopes</li>
         </ul>
         <div><b><strong style="color:#FFA500;">Skills:</strong></b> Astrophysics, Research, Python & IRAF (Programmming Languages), Data Analysis</div>
@@ -164,7 +164,7 @@ st.markdown("""
         <div class="edu-subtitle">University of the Free State</div>
         <ul>
             <li><b>University of the Free State:</b> 8 Graduate Attributes</li>
-            <li><b>GPA:</b> 2.0/68.35%</li>
+            <li><b>GPA:</b><strong style="color:#011f4b;">2.0/68.35%</strong></li>
         </ul>
         <div><b><strong style="color:#FFA500;">Skills:</strong></b> Physics, Astronomy, Calculus, Differential Equations, IRAF (Programming Language)</div>
     </div>
