@@ -157,11 +157,6 @@ st.markdown(f"""
 
 
 st.markdown("""
-    <hr style="border: 2px solid #b3cde0;">
-""", unsafe_allow_html=True)
-
-
-st.markdown("""
     <style>
     .center {
         display: flex;
