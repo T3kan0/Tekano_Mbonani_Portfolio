@@ -157,35 +157,25 @@ st.markdown(f"""
 
 st.markdown("""
     <style>
-    .typewriter h1 {
-        overflow: hidden;
-        white-space: nowrap;
-        margin: 0 auto;
-        letter-spacing: .12em;
-        animation: typing 1.8s steps(20, end);
-        color: #011f4b;
-        font-size: 38px;
+    .icon-header {
         text-align: center;
-        width: fit-content;
+        font-size: 36px;
+        color: #444;
+        font-weight: bold;
+        margin-top: 30px;
     }
-    @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
+
+    .icon-header span {
+        display: inline-block;
+        margin-right: 10px;
     }
     </style>
-    <div class="typewriter">
-        <h1>Tekano Mbonani, M.Sc.</h1>
+
+    <div class="icon-header">
+        <span>🧑‍🚀</span> From Physics to Python
     </div>
 """, unsafe_allow_html=True)
 
-    @keyframes blink-caret {
-        from, to { border-color: transparent }
-        50% { border-color: #b3cde0; }
-    }
-    </style>
-
-    <div class="typewriter"><h1>Professional Summary</h1></div>
-""", unsafe_allow_html=True)
 
 
 
