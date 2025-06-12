@@ -179,7 +179,7 @@ st.markdown("""
 
     .about-header h1 {
         font-size: 42px;
-        color: #444;
+        color: #011f4b;
         letter-spacing: 1.2px;
         position: relative;
     }
