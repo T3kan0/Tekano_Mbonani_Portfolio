@@ -43,9 +43,6 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-
-
-
 #### Header
 def display_work_card(title, organization, date_range, details_markdown, skills_markdown):
     with st.container():
@@ -70,7 +67,7 @@ def display_work_card(title, organization, date_range, details_markdown, skills_
             st.markdown(skills_markdown)
 
 # Job details and skills
-details = '''
+data_analyst = '''
 -  Supervises a team of seven interns and research assistants, ensuring the effective design of survey instruments and the systematic collection, processing, and secure storage of tutorial data within UFS database systems.  
 -  Engineered :blue[+5 web-based applications] to automate and standardize data workflows, significantly increasing operational efficiency.  
 -  Oversaw database management systems and maintained weekly tracking of critical tutorial program data.  
@@ -81,15 +78,36 @@ details = '''
 -  Presented research findings at the :blue[Siyaphumelela Conference (June 2024, July 2025)], focusing on: :blue[_Evaluating the implementation and effectiveness of skills, principles, and strategies in tutor training._]
 '''
 
-skills = ":orange[Skills]: Microsoft Power BI, Excel, Python, R, HTML, CSS, SPSS, NVivo, Data Automation, Technical Writing, and Oral Communication"
+skills_1 = ":orange[Skills]: Microsoft Power BI, Excel, Python, R, HTML, CSS, SPSS, NVivo, Data Automation, Technical Writing, and Oral Communication"
 
 # Display the card
 display_work_card(
     title="Officer: Jnr Data Analyst",
     organization="Centre for Teaching and Learning (CTL), University of the Free State (UFS)",
     date_range="May 2024 – Present",
-    details_markdown=details,
-    skills_markdown=skills
+    details_markdown=data_analyst,
+    skills_markdown=skills_1
+)
+
+
+# Job details and skills
+a_officer = '''
+- Part of a team with at least seven interns and research assistants in :blue[A_STEP] that built effective survey forms for the collection, processing and storage of the tutorial data in\
+ the UFS database management systems.
+- Developed :blue[MARS]: The Web Application that merges and processes large tutorial attendance register files collected on a weekly basis.
+- Created trackers for the tutorial and financial data collected on a weekly and/or monthly basis on the UFS :blue[Bloemfontein, Qwa-qwa and South] campuses.
+- Responsible for writing tutorial :blue[KPI] measuring reports, such as tutorial impact reports on student success, student demographics and more.
+'''
+
+skills_2 = ":orange[Skills]: Excel, Python & R (programming languages), SPSS, Data Analysis, Written Communication"
+
+# Display the card
+display_work_card(
+    title="Assistant Officer: Data Analysis",
+    organization="Centre for Teaching and Learning (CTL), University of the Free State (UFS)",
+    date_range="24/01/01 - 24/04/31",
+    details_markdown=a_officer,
+    skills_markdown=skills_2
 )
 
 
