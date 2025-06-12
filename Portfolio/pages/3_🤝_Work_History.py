@@ -78,6 +78,23 @@ def work_card(title, org, dates, bullets, skills):
     </div>
     """, unsafe_allow_html=True)
 
+work_card(
+    title="Officer: Junior Data Analyst",
+    org="Centre for Teaching and Learning (CTL), University of the Free State (UFS)",
+    dates="May 2021 – Present",
+    bullets=[
+        'Leading a team of 7+ interns in <span style="color:#1f77b4;">A_STEP</span> for data collection and database management.',
+        'Built <span style="color:#1f77b4;">5+ web applications</span> to automate workflows and boost productivity.',
+        'Managed weekly tutorial data in UFS internal DB systems.',
+        'Authoring <span style="color:#1f77b4;">KPI reports</span> on tutorial impact, tutor performance, costs, and demographics.',
+        'Designed live dashboards using <em>Microsoft Power BI</em> and <em>Excel</em>.',
+        'Developed predictive models for tutorial attendance using <em>Machine Learning & AI</em> tools.',
+        'Applied <span style="color:#1f77b4;">statistical analysis</span>: T-Test, ANOVA, Cohen’s D, Post-Hoc, Linear Regression.',
+        'Presented at <em>Siyaphumelela Conference (June 2024)</em>: Evaluating tutor training effectiveness.'
+    ],
+    skills="Power BI, Excel, Python, R, HTML, CSS, SPSS, NVIVO, Communication, Automation"
+)
+
 
 c1, c2, c3, c4 = st.columns([31, 20, 35, 15])
 with c1:
