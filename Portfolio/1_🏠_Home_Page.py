@@ -183,7 +183,7 @@ st.markdown("""
     }
     </style>
 
-    <div class="typewriter"><h1>Welcome to my portfolio, below is my bio</h1></div>
+    <div class="typewriter"><h1>Proffessional Summary</h1></div>
 """, unsafe_allow_html=True)
 
 
