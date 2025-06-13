@@ -24,6 +24,8 @@ st.set_page_config(
 # --- LOAD CSS, PDF & PROFIL PIC ---
 #with open('config.css') as f:
     #st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+
+
 st.markdown("""
     <style>
     .header-container {
@@ -46,9 +48,6 @@ st.markdown("""
         <div class="header-title">🗄️ Projects</div>
     </div>
 """, unsafe_allow_html=True)
-
-
-
 
 # Set a fixed height for the iframes
 iframe_height = 600
