@@ -67,7 +67,7 @@ st.markdown("""
     }
     </style>
     <div class="center-header">
-        <h2 style="color: #003366; font-weight: 600;">📚 Research Projects</h2>
+        <h2 style="color: #011f4b; font-weight: 600;">📚 Research Projects</h2>
     </div>
 """, unsafe_allow_html=True)
 
