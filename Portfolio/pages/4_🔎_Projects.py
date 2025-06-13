@@ -60,7 +60,7 @@ st.markdown("""
         justify-content: center;
         align-items: center;
         height: 100px;
-        background: linear-gradient(to right, #e4edf2, #FFF);
+        background: linear-gradient(to right, #D3D3D3, #e4edf2);
         border-radius: 12px;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         margin-bottom: 20px;
