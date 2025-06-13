@@ -67,13 +67,43 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-#st.sidebar.write('Welcome')
-
 
 # Function to display PDF from a link
 def display_pdf_from_link(pdf_link, height=600, width=700):
     pdf_display = f'<iframe src="{pdf_link}" width="{width}" height="{height}" type="application/pdf"></iframe>'
     st.markdown(pdf_display, unsafe_allow_html=True)
+
+
+col1, col2 = st.columns(2)
+
+with col1:
+    with st.expander("📊 :blue[Research Slides] – Evaluating Tutor Training in A_STEP"):
+        st.markdown("""
+        **Project Overview:**  
+        This study evaluates the **effectiveness and implementation** of skills, principles, and strategies in tutor training, based on data from the peer learning tutorial program, **Academic Tutorial Student Excellence Program (A_STEP)** at the **University of the Free State (UFS)**.
+        
+        🔗 [View Slides (PDF)](https://www.siyaphumelela.org.za/documents/66a368f4ab274.pdf)  
+        📅 **Presented at**: Siyaphumelela Conference, June 2024
+        """)
+
+        # Optional: display PDF inline (if you want)
+        # display_pdf_from_link("https://www.siyaphumelela.org.za/documents/66a368f4ab274.pdf", height=600, width=500)
+
+with col2:
+    with st.expander("🛰️ :blue[Research Paper] – Temporal Analysis of PKS 1510-089"):
+        st.markdown("""
+        **Project Overview:**  
+        A temporal variability analysis of the **blazar PKS 1510-089** using optical and gamma-ray data.  
+        The study investigates **multi-wavelength flaring activity (2014–2015)**, performs **correlation analysis**, and estimates the emission region's distance from the central **supermassive black hole**.
+
+        🔗 [View Paper (PDF)](https://pos.sissa.it/426/053/pdf)  
+        📍 **Conference**: 38th International Cosmic Ray Conference (ICRC 2023)
+        """)
+
+        # Optional: display PDF inline
+        # display_pdf_from_link("https://pos.sissa.it/426/053/pdf", height=600, width=500)
+
+
 
 
 
