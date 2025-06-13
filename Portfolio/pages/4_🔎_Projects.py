@@ -55,18 +55,21 @@ iframe_height = 600
 
 st.markdown("""
     <style>
-    .center {
+    .center-header {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100px;
+        background: linear-gradient(to right, #e0eafc, #cfdef3);
+        border-radius: 12px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
     }
     </style>
-    <div class="center">
-        <h4 style="color: dimgrey;">Research</h4>
+    <div class="center-header">
+        <h2 style="color: #003366; font-weight: 600;">📚 Research Projects</h2>
     </div>
 """, unsafe_allow_html=True)
-
 
 # Function to display PDF from a link
 def display_pdf_from_link(pdf_link, height=600, width=700):
