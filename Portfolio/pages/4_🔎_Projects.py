@@ -97,7 +97,7 @@ with col2:
         The study investigates **multi-wavelength flaring activity (2014–2015)**, performs **correlation analysis**, and estimates the emission region's distance from the central **supermassive black hole**.
 
         🔗 [View Paper (PDF)](https://pos.sissa.it/426/053/pdf)  
-        📍 **Conference**: 38th International Cosmic Ray Conference (ICRC 2023)
+        📍 **Conference**: High Energy Astrophysics in Southern Africa 2022- HEASA2022
         """)
 
         # Optional: display PDF inline
