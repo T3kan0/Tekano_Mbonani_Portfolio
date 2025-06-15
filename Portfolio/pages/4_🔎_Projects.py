@@ -226,9 +226,22 @@ with col7:
         </div>
         """, unsafe_allow_html=True)
 
-
 st.markdown("""
-    <hr style="border: 2px solid dimgrey;">
+    <style>
+    .center-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background: linear-gradient(to right, #FAF9F6, #e4edf2);
+        border-radius: 12px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+    </style>
+    <div class="center-header">
+        <h2 style="color: #011f4b; font-weight: 600;">🤖 Web Apps</h2>
+    </div>
 """, unsafe_allow_html=True)
 
 st.markdown("""
