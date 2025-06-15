@@ -167,6 +167,27 @@ with col5:
     with st.expander(":blue[Project 3]: Time-Series Modeling"):
         st.markdown("An exponential fit of gamma-ray light-curves to extract rise and fall times. For more details, visit [Project Link](https://github.com/T3kan0/Light_Curve_Temp_Profile).")
 
+
+st.markdown("""
+    <style>
+    .center-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background: linear-gradient(to right, #FAF9F6, #e4edf2);
+        border-radius: 12px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+    </style>
+    <div class="center-header">
+        <h2 style="color: #011f4b; font-weight: 600;">🐍 Power BI</h2>
+    </div>
+""", unsafe_allow_html=True)
+
+
+
 st.markdown("""
     <hr style="border: 2px solid dimgrey;">
 """, unsafe_allow_html=True)
