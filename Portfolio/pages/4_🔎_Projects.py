@@ -113,7 +113,7 @@ st.markdown("""
         justify-content: center;
         align-items: center;
         height: 100px;
-        background: linear-gradient(to right, #FAF9F6, #e4edf2);
+        background: linear-gradient(to right, #e4edf2, #FAF9F6);
         border-radius: 12px;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         margin-bottom: 20px;
