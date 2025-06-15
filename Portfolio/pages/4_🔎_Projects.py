@@ -302,25 +302,9 @@ st.markdown("""
     }
     </style>
     <div class="center-header">
-        <h2 style="color: #011f4b; font-weight: 600;">🤖 Websites</h2>
+        <h2 style="color: #011f4b; font-weight: 600;">🔎 Websites</h2>
     </div>
 """, unsafe_allow_html=True)
-
-
-st.markdown("""
-    <style>
-    .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100px;
-    }
-    </style>
-    <div class="center">
-        <h4 style="color: dimgrey;">Websites</h4>
-    </div>
-""", unsafe_allow_html=True)
-
 
 
 
