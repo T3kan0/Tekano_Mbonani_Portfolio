@@ -106,6 +106,23 @@ with col2:
         # Optional: display PDF inline
         # display_pdf_from_link("https://pos.sissa.it/426/053/pdf", height=600, width=500)
 
+st.markdown("""
+    <style>
+    .center-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background: linear-gradient(to right, #FAF9F6, #e4edf2);
+        border-radius: 12px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+    </style>
+    <div class="center-header">
+        <h2 style="color: #011f4b; font-weight: 600;">📚 Python</h2>
+    </div>
+""", unsafe_allow_html=True)
 
 
 st.markdown("""
