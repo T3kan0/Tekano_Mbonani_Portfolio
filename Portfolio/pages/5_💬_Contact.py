@@ -22,6 +22,31 @@ import re
 
 st.markdown("""
     <style>
+    .header-container {
+        background: linear-gradient(to right, #dbe9f4, #ffffff);
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+        margin-bottom: 1rem;
+    }
+    .header-title {
+        text-align: center;
+        color: #011f4b;
+        font-size: 3rem;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    }
+    </style>
+    <div class="header-container">
+        <div class="header-title">🗄️ Contact Me</div>
+    </div>
+""", unsafe_allow_html=True)
+
+
+
+st.markdown("""
+    <style>
     .center {
         display: flex;
         justify-content: center;
