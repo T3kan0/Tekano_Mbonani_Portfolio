@@ -45,23 +45,6 @@ st.markdown("""
 
 
 
-st.markdown("""
-    <style>
-    .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100px;
-    }
-    </style>
-    <div class="center">
-        <h1 style="color: dimgrey;">Contact Me</h1>
-    </div>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-    <hr style="border: 2px solid dimgrey;">
-""", unsafe_allow_html=True)
 
 st.markdown("""
     <style>
