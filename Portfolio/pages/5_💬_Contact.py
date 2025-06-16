@@ -39,7 +39,7 @@ st.markdown("""
     }
     </style>
     <div class="header-container">
-        <div class="header-title">🗄️ Contact Me</div>
+        <div class="header-title">📩 Contact Me</div>
     </div>
 """, unsafe_allow_html=True)
 
