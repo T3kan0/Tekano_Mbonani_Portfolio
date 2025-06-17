@@ -92,17 +92,29 @@ with st.form('contact_form'):
 
 st.markdown("""
     <style>
-    .center {
+    .closing-message {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100px;
+        height: 120px;
+        background: linear-gradient(to right, #f2f2f2, #e6e6e6);
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        margin-top: 40px;
+        font-family: 'Segoe UI', sans-serif;
+    }
+    .closing-message h3 {
+        color: #444;
+        font-weight: 600;
+        font-size: 22px;
+        text-align: center;
     }
     </style>
-    <div class="center">
-        <h3 style="color: dimgrey;">Thank you for visiting my portfolio!</h3>
+    <div class="closing-message">
+        <h3>👋 Thank you for visiting my portfolio!<br>Let's connect and create something impactful.</h3>
     </div>
 """, unsafe_allow_html=True)
+
 
 
 
