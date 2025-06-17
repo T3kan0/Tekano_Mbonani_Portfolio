@@ -54,26 +54,7 @@ def is_valid_email(email):
     return re.match(email_pattern, email) is not None
 
 def contact_form():
-    st.markdown("""
-        <style>
-        .form-box {
-            background-color: #f9f9f9;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-            margin-top: 30px;
-        }
-        .form-title {
-            text-align: center;
-            font-size: 24px;
-            color: #011f4b;
-            margin-bottom: 20px;
-        }
-        </style>
-        <div class="form-box">
-        <div class="form-title">📫 Contact Me</div>
-    """, unsafe_allow_html=True)
-
+    
     with st.form('contact_form'):
         name = st.text_input('👤 First Name', placeholder="Your name")
         email = st.text_input('📧 Email Address', placeholder="you@example.com")
