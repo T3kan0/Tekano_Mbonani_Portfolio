@@ -7,11 +7,8 @@ from fpdf import FPDF
 import numpy as np
 import pandas as pd
 from PyPDF2 import PdfWriter
-
 import base64
-
 import streamlit as st
-
 
 
 st.set_page_config(
@@ -24,7 +21,6 @@ st.set_page_config(
 # --- LOAD CSS, PDF & PROFIL PIC ---
 #with open('config.css') as f:
     #st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
-
 
 # Set a fixed height for the iframes
 iframe_height = 600
