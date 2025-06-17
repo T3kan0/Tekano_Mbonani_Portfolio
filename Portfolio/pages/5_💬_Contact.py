@@ -45,22 +45,6 @@ st.markdown("""
 
 
 
-
-st.markdown("""
-    <style>
-    .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100px;
-    }
-    </style>
-    <div class="center">
-        <h3 style="color: dimgrey;">Thank you for visiting my portfolio!</h3>
-    </div>
-""", unsafe_allow_html=True)
-
-
 # NO CODE TOOL
 
 WEBHOOK_URL = 'https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjYwNTZkMDYzNDA0MzU1MjZiNTUzMDUxMzci_pc'
@@ -106,7 +90,19 @@ with st.form('contact_form'):
 
 
 
-
+st.markdown("""
+    <style>
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+    </style>
+    <div class="center">
+        <h3 style="color: dimgrey;">Thank you for visiting my portfolio!</h3>
+    </div>
+""", unsafe_allow_html=True)
 
 
 
