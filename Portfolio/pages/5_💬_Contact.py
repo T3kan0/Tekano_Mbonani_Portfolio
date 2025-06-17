@@ -43,8 +43,6 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-
-
 # NO CODE TOOL
 
 WEBHOOK_URL = 'https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjYwNTZkMDYzNDA0MzU1MjZiNTUzMDUxMzci_pc'
@@ -95,7 +93,6 @@ def contact_form():
 
 # Call the function
 contact_form()
-
 
 st.markdown("""
     <style>
