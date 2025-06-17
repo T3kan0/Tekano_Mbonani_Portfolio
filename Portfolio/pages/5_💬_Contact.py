@@ -53,6 +53,71 @@ def is_valid_email(email):
     email_pattern = r'^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$'
     return re.match(email_pattern, email) is not None
 
+def contact_form():
+    st.markdown("""
+        <style>
+        .form-box {
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            margin-top: 30px;
+        }
+        .form-title {
+            text-align: center;
+            font-size: 24px;
+            color: #011f4b;
+            margin-bottom: 20px;
+        }
+        </style>
+        <div class="form-box">
+        <div class="form-title">📫 Contact Me</div>
+    """, unsafe_allow_html=True)
+
+    with st.form('contact_form'):
+        name = st.text_input('👤 First Name', placeholder="Your name")
+        email = st.text_input('📧 Email Address', placeholder="you@example.com")
+        message = st.text_area('💬 Your Message', placeholder="Type your message here...")
+        submit_button = st.form_submit_button('Send Message')
+
+        if submit_button:
+            if not WEBHOOK_URL:
+                st.error("Email service is not set up. Please try again later.")
+                st.stop()
+
+            # Field validations
+            if not name:
+                st.error("Please provide your name. 🙋")
+                st.stop()
+            if not email:
+                st.error("Please provide your email address. 📧")
+                st.stop()
+            if not is_valid_email(email):
+                st.error("That doesn't look like a valid email address. 🚫")
+                st.stop()
+            if not message:
+                st.error("Message field can't be empty. 📝")
+                st.stop()
+
+            # Prepare and send
+            data = {"name": name, "email": email, "message": message}
+            try:
+                response = requests.post(WEBHOOK_URL, json=data, timeout=10)
+                if response.status_code == 200:
+                    st.success(f"✅ Thanks {name}, your message has been sent!")
+                else:
+                    st.error("😕 Something went wrong. Please try again later.")
+            except requests.exceptions.RequestException:
+                st.error("🚫 Network error. Please check your connection.")
+
+    st.markdown("</div>", unsafe_allow_html=True)
+
+# Call the function
+contact_form()
+
+
+
+
 #def contact_form():
 with st.form('contact_form'):
     name = st.text_input('First Name')
