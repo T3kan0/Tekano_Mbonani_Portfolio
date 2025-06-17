@@ -108,7 +108,7 @@ st.markdown("""
         font-family: 'Segoe UI', sans-serif;
     }
     .closing-message h3 {
-        color: #444;
+        color: #dbe9f4;
         font-weight: 600;
         font-size: 22px;
         text-align: center;
