@@ -79,7 +79,7 @@ st.markdown("""
         <div class="edu-subtitle">University of the Free State</div>
         <ul>
             <li><b>Thesis:</b> Probing the inner jet regions and emission mechanisms of the flat spectrum radio quasars 3C 279 and PKS 1510-089 through temporal and spectral variability studies</li>
-            <li><b>GPA:</b> <strong style="color:#011f4b;">3.5 / 82.00%</strong></li>
+            <li><b>GPA:</b> <strong style="color:#011f4b;">3.5 (82.00%)</strong></li>
             <li><b>Conferences:</b> 4 presented</li>
             <li><b>Publications:</b> 2 in Proceedings of Sciences</li>
         </ul>
