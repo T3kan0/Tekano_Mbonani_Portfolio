@@ -95,7 +95,7 @@ with c2:
         </style>
 
         <div class="profile-container">
-            <img class="profile-image" src="https://i.postimg.cc/W4jDmS8z/37732abf8cfbd30353f5102edcd17c09.jpg" alt="Tekano Mbonani"/>
+            <img class="profile-image" src="https://i.postimg.cc/nzrq70V7/tekano-1.png" alt="Tekano Mbonani"/>
         </div>
     """, unsafe_allow_html=True)
 
