@@ -81,8 +81,8 @@ with c2:
         }
 
         .profile-image {
-            width: 60%;
-            max-width: 320px;
+            width: 80%;
+            max-width: 400px;
             border-radius: 20px;
             box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
             border: 4px solid #b3cde0;
