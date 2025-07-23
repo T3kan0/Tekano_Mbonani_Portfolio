@@ -17,7 +17,6 @@ st.set_page_config(
 #with open('config.css') as f:
     #st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 
-
 st.markdown("""
     <style>
     .header-container {
@@ -26,6 +25,7 @@ st.markdown("""
         border-radius: 10px;
         box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
         margin-bottom: 1rem;
+        border: 2px solid #011f4b;  /* Added border */
     }
     .header-title {
         text-align: center;
