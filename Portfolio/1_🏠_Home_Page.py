@@ -46,6 +46,7 @@ st.markdown("""
         border-radius: 12px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.05);
         margin-bottom: 2rem;
+        border: 2px solid #011f4b;  /* NEW: dark blue border */
     }
     .intro-title {
         font-size: 2.8rem;
