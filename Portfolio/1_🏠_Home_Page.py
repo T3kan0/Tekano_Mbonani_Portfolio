@@ -77,15 +77,20 @@ with c2:
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100%;
+            height: 300px;  /* Increased space */
+            background-color: #f7f9fa;
+            border-radius: 20px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+            padding: 20px;
         }
 
         .profile-image {
-            width: 80%;
-            max-width: 400px;
+            max-width: 100%;
+            max-height: 260px;
+            height: auto;
             border-radius: 20px;
-            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
             border: 4px solid #b3cde0;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
             transition: transform 0.3s ease, border-color 0.3s ease;
         }
 
