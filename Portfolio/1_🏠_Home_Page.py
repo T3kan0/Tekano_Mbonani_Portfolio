@@ -77,7 +77,7 @@ with c2:
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 300px;  /* Increased space */
+            height: 300px;
             background-color: #f7f9fa;
             border-radius: 20px;
             box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
@@ -89,14 +89,14 @@ with c2:
             max-height: 260px;
             height: auto;
             border-radius: 20px;
-            border: 4px solid #b3cde0;
+            border: 3px dashed #800080; /* Short-dashed purple border */
             box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
             transition: transform 0.3s ease, border-color 0.3s ease;
         }
 
         .profile-image:hover {
             transform: scale(1.03);
-            border-color: #011f4b;
+            border-color: #4b0082; /* Darker purple on hover */
         }
         </style>
 
@@ -104,7 +104,7 @@ with c2:
             <img class="profile-image" src="https://i.postimg.cc/W4jDmS8z/37732abf8cfbd30353f5102edcd17c09.jpg" alt="Tekano Mbonani"/>
         </div>
     """, unsafe_allow_html=True)
-
+    
 st.markdown("""
     <hr style="border: 2px solid #b3cde0;">
 """, unsafe_allow_html=True)
