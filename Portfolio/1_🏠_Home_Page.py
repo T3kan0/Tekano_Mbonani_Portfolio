@@ -73,34 +73,34 @@ c1, c2, c3 = st.columns([25, 50, 25])
 with c2:
     st.markdown("""
         <style>
-        .profile-container {
+        .profile-wrapper {
+            padding: 15px;
+            border: 2px dashed #800080; /* Outer dashed border */
+            border-radius: 25px;
+            background-color: #ffffff;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 300px;
-            background-color: #f7f9fa;
-            border-radius: 20px;
-            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
-            padding: 20px;
+            margin-top: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
         }
 
         .profile-image {
-            max-width: 100%;
-            max-height: 260px;
-            height: auto;
+            width: 60%;
+            max-width: 320px;
             border-radius: 20px;
-            border: 3px dashed #800080; /* Short-dashed purple border */
             box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+            border: 4px solid #b3cde0;
             transition: transform 0.3s ease, border-color 0.3s ease;
         }
 
         .profile-image:hover {
             transform: scale(1.03);
-            border-color: #4b0082; /* Darker purple on hover */
+            border-color: #011f4b;
         }
         </style>
 
-        <div class="profile-container">
+        <div class="profile-wrapper">
             <img class="profile-image" src="https://i.postimg.cc/W4jDmS8z/37732abf8cfbd30353f5102edcd17c09.jpg" alt="Tekano Mbonani"/>
         </div>
     """, unsafe_allow_html=True)
