@@ -70,8 +70,7 @@ with col2:
     with st.expander("🛰️ :blue[Research Paper] – Temporal Analysis of PKS 1510-089"):
         st.markdown("""
         **Project Overview:**  
-        A temporal variability analysis of the **blazar PKS 1510-089** using optical and gamma-ray data.  
-        The study investigates **multi-wavelength flaring activity (2014–2015)**, performs **correlation analysis**, and estimates the emission region's distance from the central **supermassive black hole**.
+        A temporal variability analysis of the **blazar PKS 1510-089** using optical and gamma-ray data. The study investigates **multi-wavelength flaring activity (2014–2015)**, performs **correlation analysis**, and estimates the emission region's distance from the central **supermassive black hole**.
 
         🔗 [View Paper (PDF)](https://pos.sissa.it/426/053/pdf)  
         📍 **Conference**: High Energy Astrophysics in Southern Africa 2022- HEASA2022
