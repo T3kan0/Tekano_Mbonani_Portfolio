@@ -26,6 +26,7 @@ st.markdown("""
         background: linear-gradient(to right, #dbe9f4, #ffffff);
         padding: 2rem;
         border-radius: 10px;
+        border: 2px solid #011f4b;  /* Added border */ 
         box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
         margin-bottom: 1rem;
     }
