@@ -104,6 +104,7 @@ st.markdown("""
         height: 120px;
         background: linear-gradient(to right, #dbe9f4, #e6e6e6);
         border-radius: 12px;
+        border: 2px solid #011f4b;  /* Added border */
         box-shadow: 0 4px 8px rgba(0,0,0,0.05);
         margin-top: 40px;
         font-family: 'Segoe UI', sans-serif;
