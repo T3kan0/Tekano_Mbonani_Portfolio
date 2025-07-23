@@ -117,7 +117,7 @@ st.markdown("""
     }
     </style>
     <div class="closing-message">
-        <h3>👋 Thank you for visiting my portfolio!<br>Let's connect and create something impactful.</h3>
+        <h3>👋 Thank you for visiting my portfolio!<br>Let's connect and create something impactful </h3>
     </div>
 """, unsafe_allow_html=True)
 
