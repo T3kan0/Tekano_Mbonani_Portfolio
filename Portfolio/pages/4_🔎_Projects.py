@@ -139,7 +139,7 @@ col5.markdown('''
 col5.markdown("[![Research](https://img.shields.io/badge/Research-Output)](https://github.com/T3kan0/Light_Curve_Temp_Profile)")
 with col5:
     with st.expander(":blue[Project 3]: Time-Series Modeling"):
-        st.markdown("An exponential fit of gamma-ray light-curves to extract rise and fall times. For more details, visit [Project Link](https://github.com/T3kan0/Light_Curve_Temp_Profile).")
+        st.markdown("An exponential fit of light-curves to extract rise and fall times. For more details, visit [Project Link](https://github.com/T3kan0/Light_Curve_Temp_Profile).")
 
 
 st.markdown("""
