@@ -83,7 +83,7 @@ st.markdown("""
             <li><b>Conferences:</b> 4 presented</li>
             <li><b>Publications:</b> 2 in Proceedings of Sciences</li>
         </ul>
-        <div><b><strong style="color:#FFA500;">Skills:</strong></b> Astrophysics, Research, Python, IRAF, Data Analysis, Oral and Written Communication</div>
+        <div><b><strong style="color:#FFA500;">Skills:</strong></b> Astrophysics, Research, Python, IRAF, FOTRAN95, Data Analysis, Oral and Written Communication</div>
     </div>
 """, unsafe_allow_html=True)
 
