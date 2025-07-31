@@ -166,6 +166,6 @@ st.markdown("""
             <li><b>University of the Free State:</b> 8 Graduate Attributes</li>
             <li><b>GPA:</b><strong style="color:#011f4b;"> 2.0 (68.35%)</strong></li>
         </ul>
-        <div><b><strong style="color:#FFA500;">Skills:</strong></b> Physics, Astronomy, Calculus, Differential Equations, IRAF (Programming Language)</div>
+        <div><b><strong style="color:#FFA500;">Skills:</strong></b> Physics, Astronomy, Calculus, Statistics, Differential Equations, IRAF (Programming Language)</div>
     </div>
 """, unsafe_allow_html=True)
