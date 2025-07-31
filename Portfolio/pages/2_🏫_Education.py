@@ -125,7 +125,7 @@ st.markdown("""
             <li><b>GPA:</b><strong style="color:#011f4b;"> 3.0 (70.44%)</strong></li>
             <li><b>Observations at the Boyden Observatory:</b> The Watcher and 1.5m Telescopes</li>
         </ul>
-        <div><b><strong style="color:#FFA500;">Skills:</strong></b> Astrophysics, Research, Python & IRAF (Programmming Languages), Data Analysis</div>
+        <div><b><strong style="color:#FFA500;">Skills:</strong></b> Astrophysics, Statistics, Research, Python & IRAF (Programmming Languages), Data Analysis</div>
     </div>
 """, unsafe_allow_html=True)
 
