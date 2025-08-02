@@ -22,4 +22,4 @@ To run the MARS locally, one must have an anaconda/conda environment set up. Loa
 
 > $ streamlit run streamlit_app.py
 
-The Web Application has successfully been deployed on the streamlit cloud, users can access it here: https://marsv100-da5bwqvb8pdtbck8yjqdme.streamlit.app/
+The Web Application has successfully been deployed on the streamlit cloud, users can access it here: https://tekano-mbonani-portfolio.streamlit.app/
