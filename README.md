@@ -18,7 +18,7 @@ You will need to install the following software on your system in order to run/e
   * requests
 
 ### Running the code
-To run the MARS locally, one must have an anaconda/conda environment set up. Load the environment, navigate to the directory with the app then run the **mars.py** code:
+To run the portfolio locally, one must have an anaconda/conda environment set up. Load the environment, navigate to the directory with the app then run the **mars.py** code:
 
 > $ streamlit run streamlit_app.py
 
