@@ -11,7 +11,7 @@ You will need to install the following software on your system in order to run/e
   * streamlit
   * pandas
   * scipy
-  * dateutil
+  * sklearn
   * re
   * datetime
   * sqlalchemy
