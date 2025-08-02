@@ -14,6 +14,6 @@ You will need to install the following software on your system in order to run/e
   * sklearn
   * re
   * datetime
-  * sqlalchemy
+  * PIL
   * rapidfuzz
   * fuzzywuzzy
