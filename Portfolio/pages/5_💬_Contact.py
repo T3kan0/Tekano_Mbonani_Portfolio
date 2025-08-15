@@ -96,26 +96,26 @@ def contact_form():
 contact_form()
 
 #st.markdown("""
-    <style>
-    .closing-message {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 120px;
-        background: linear-gradient(to right, #dbe9f4, #e6e6e6);
-        border-radius: 12px;
-        border: 2px solid #011f4b;  /* Added border */
-        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-        margin-top: 40px;
-        font-family: 'Segoe UI', sans-serif;
-    }
-    .closing-message h3 {
-        color: #dbe9f4;
-        font-weight: 600;
-        font-size: 22px;
-        text-align: center;
-    }
-    </style>
+    #<style>
+    #.closing-message {
+       # display: flex;
+       # justify-content: center;
+       # align-items: center;
+     #   height: 120px;
+      #  background: linear-gradient(to right, #dbe9f4, #e6e6e6);
+      #  border-radius: 12px;
+      #  border: 2px solid #011f4b;  /* Added border */
+       # box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+       # margin-top: 40px;
+     #   font-family: 'Segoe UI', sans-serif;
+   # }
+   # .closing-message h3 {
+      #  color: #dbe9f4;
+      #  font-weight: 600;
+       # font-size: 22px;
+       # text-align: center;
+    #}
+    #</style>
     #<div class="closing-message">
         #<h3>👋 Thank you for visiting my portfolio! <br> Let's connect and create something impactful </h3>
     #</div>
