@@ -11,13 +11,16 @@ You will need to install the following software on your system in order to run/e
 * Textedit/ IDE - spyder, jupyter-notebook
 * libraries
   * streamlit
-  * pandas
   * scipy
-  * sklearn
-  * re
+  * scikit-learn
+  * fpdf
+  * numpy
+  * pandas
+  * PILLOW
   * datetime
-  * PIL
   * requests
+  * pypdf2
+  * regex
 
 ### Running the code
 To run the portfolio locally, one must have an anaconda/conda environment set up. Load the environment, navigate to the directory with the app then run the **mars.py** code:
