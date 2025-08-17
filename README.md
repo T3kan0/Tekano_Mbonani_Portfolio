@@ -6,7 +6,6 @@ I wanted a prefessional platform to present career achievements, milestones and 
 
 ## Software Requirements 🔌
 You will need to install the following software on your system in order to run/edit the Python script.
-* Mac OS
 * Python 3.10.12
 * Textedit/ IDE - spyder, jupyter-notebook
 * libraries
