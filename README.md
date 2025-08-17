@@ -24,6 +24,6 @@ You will need to install the following software on your system in order to run/e
 ### Running the code
 To run the portfolio locally, one must have an anaconda/conda environment set up. Load the environment, navigate to the directory with the app then run the ''1_🏠_Home_Page.py'' code:
 
-> $ streamlit run streamlit_app.py
+> $ streamlit run 1_🏠_Home_Page.py
 
 The Web Application has successfully been deployed on the streamlit cloud, users can access it here: https://tekano-mbonani-portfolio.streamlit.app/
