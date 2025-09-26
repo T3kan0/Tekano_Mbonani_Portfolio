@@ -6,7 +6,6 @@ from sklearn.linear_model import LinearRegression
 from fpdf import FPDF
 import numpy as np
 import pandas as pd
-
 import streamlit as st
 
 st.set_page_config(
