@@ -72,38 +72,38 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-    <style>
-    .intro-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 200px;
-        background: linear-gradient(to right, #b3cde0, #ffffff);
-        border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-        margin-bottom: 2rem;
-        border: 2px solid #011f4b;  /* NEW: dark blue border */
-    }
-    .intro-title {
-        font-size: 2.8rem;
-        font-weight: bold;
-        color: #011f4b;
-        margin-bottom: 0.5rem;
-    }
-    .intro-subtitle {
-        font-size: 1.3rem;
-        font-style: italic;
-        color: #7f8c8d;
-    }
-    </style>
+#st.markdown("""
+ #   <style>
+  #  .intro-container {
+   #     display: flex;
+    #    flex-direction: column;
+     #   justify-content: center;
+      #  align-items: center;
+       # height: 200px;
+        #background: linear-gradient(to right, #b3cde0, #ffffff);
+        #border-radius: 12px;
+        #box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        #margin-bottom: 2rem;
+        #border: 2px solid #011f4b;  /* NEW: dark blue border */
+    #}
+    #.intro-title {
+     #   font-size: 2.8rem;
+      #  font-weight: bold;
+       # color: #011f4b;
+        #margin-bottom: 0.5rem;
+    #}
+    #.intro-subtitle {
+     #   font-size: 1.3rem;
+      #  font-style: italic;
+       # color: #7f8c8d;
+    #}
+    #</style>
 
-    <div class="intro-container">
-        <div class="intro-title">Tekano Mbonani, M.Sc.</div>
-        <div class="intro-subtitle">Welcome To My Portfolio</div>
-    </div>
-""", unsafe_allow_html=True)
+    #<div class="intro-container">
+     #   <div class="intro-title">Tekano Mbonani, M.Sc.</div>
+      #  <div class="intro-subtitle">Welcome To My Portfolio</div>
+    #</div>
+#""", unsafe_allow_html=True)
 
 
 c1, c2, c3 = st.columns([25, 50, 25])
