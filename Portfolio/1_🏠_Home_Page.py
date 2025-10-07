@@ -211,7 +211,7 @@ st.markdown("""
         <li>Holder of an <strong>M.Sc. in Astrophysics</strong>, with aspirations to advance in the field of astronomical research.</li>
         <li>Experienced tutor in <strong style="color:#FF4B4B;">Python</strong>, <strong style="color:#FF4B4B;">R</strong>, Mathematics, and Physics — delivered both <em>online</em> and <em>face-to-face</em>.</li>
         <li>Excellent communicator with strong <em>verbal and written</em> skills, adept at simplifying complex topics.</li>
-        <li>Freelance <strong>Data Consultant</strong>, bridging data and decision-making for diverse clients.</li>
+        <li>Supplemental Instruction <strong>Data Analytics Consultant</strong>, bridging data and decision-making for diverse clients.</li>
     </ul>
 </div>
 """, unsafe_allow_html=True)
