@@ -5,7 +5,6 @@ from fpdf import FPDF
 import numpy as np
 import pandas as pd
 import streamlit as st
-
 st.set_page_config(
     page_title="EDU",
     page_icon="🎓",
@@ -86,7 +85,6 @@ st.markdown("""
         <div><b><strong style="color:#FFA500;">Skills:</strong></b> Astrophysics, Research, Python, IRAF, FORTRAN95, Data Analysis, Oral and Written Communication</div>
     </div>
 """, unsafe_allow_html=True)
-
 
 # BSc H
 st.markdown("""
